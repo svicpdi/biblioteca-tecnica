@@ -1,0 +1,5 @@
+title: Candidaturas  # Así se llamará la pestaña en la web
+nav:
+    - index.md            # Primero la introducción
+    - seccion_b/          # Luego la sección B (aunque la B vaya después de la A)
+    - seccion_a/          # Por último la sección A

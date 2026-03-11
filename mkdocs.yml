@@ -1,0 +1,75 @@
+# Información básica
+site_name: Biblioteca técnica - SVICPDI
+site_url: https://tu-usuario.github.io/tu-proyecto/
+site_author: Víctor Leal Acosta
+site_description: Biblioteca técnica del Soporte del Vicerrectorado de Personal Docente e Investigador (SVICPDI) de la Universidad de La Laguna (ULL)
+
+extra_css:
+  - extra.css
+
+# Configuración del Tema Material
+theme:
+  name: material
+  language: es  # Idioma de la interfaz (buscador, etiquetas)
+  custom_dir: overrides
+  features:
+    - navigation.tabs      # Menú superior en lugar de lateral (opcional)
+    - navigation.sections  # Agrupar secciones en el menú
+    - navigation.expand    # Expandir todo el árbol por defecto
+    - navigation.top       # Botón para volver arriba
+    - search.suggest       # Sugerencias al escribir en el buscador
+    - search.highlight     # Resaltar términos buscados
+    - content.code.copy    # Botón de copiar en bloques de código
+
+  # Personalización de Colores
+  palette:
+    # Modo Claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom    # Se sobrescribe en extra.css
+      accent: custom     # Se sobrescribe en extra.css
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    # Modo Oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+# Plugins Esenciales
+plugins:
+  - search        # El buscador (obligatorio)
+  - awesome-pages  # Genera páginas automáticamente (reemplaza a awesome-pages)
+  - minify:       # Optimiza el HTML/CSS/JS (requiere pip install mkdocs-minify-plugin)
+  - git-revision-date-localized: # Muestra la fecha de última modificación (requiere pip install mkdocs-git-revision-date-localized-plugin)
+      locale: es # Formato de fecha en español
+      type: datetime # Muestra fecha y hora completas
+      enable_creation_date: true  # También muestra la fecha de creación
+# - pdf-export:     # Permite exportar páginas a PDF (requiere pip install mkdocs-pdf-export-plugin)
+  - mermaid2:      # Soporte para diagramas Mermaid (requiere pip install mkdocs-mermaid2-plugin)
+      minify_html: true
+
+# Extensiones de Markdown (Lo que hace que el contenido se vea pro)
+markdown_extensions:
+  - admonition          # Cuadros de aviso (Note, Warning, etc.)
+  - pymdownx.details    # Secciones colapsables
+  - pymdownx.superfences # Bloques de código avanzados
+  - pymdownx.tabbed:    # Pestañas de contenido
+      alternate_style: true 
+  - attr_list           # Permite añadir atributos CSS a elementos
+  - md_in_html           # Permite HTML dentro de Markdown
+  - toc:                 # Tabla de contenidos automática
+      permalink: "¶"    # Enlaces permanentes en los encabezados
+      toc_depth: 2       # Profundidad de la tabla de contenidos
+
+# Estructura de Navegación (El Nav)
+nav:
+  - Inicio: index.md
+  - Baremación de plazas:
+      - Manual de  uso - Plantilla de Baremación: baremacion/plantilla_baremacion.md
+      - FAQ - Plantilla de Baremación: baremacion/faq_baremacion.md

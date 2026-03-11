@@ -1,0 +1,19 @@
+# --- Entorno Virtual ---
+.venv/
+venv/
+ENV/
+
+# --- MkDocs (Archivos generados) ---
+site/
+
+# --- Python (Archivos temporales) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Sistema y Editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
