@@ -102,6 +102,17 @@ En el Reglamento de Contratación se hace referencia al número de autores (Na).
 
 En el caso de concursos de Bolsa de sustituciones no existe una asignación de código de plaza alfanumérico a cada concurso por lo que, siempre que el código de plaza sea requerido (herramienta de baremación, formulario de solicitud, etc.), deberá indicar “Bolsa de sustitución”.
 
+### **Tengo intención de presentarme a varios plazas/concursos de los disponibles actualmente. ¿Cómo puedo hacer para evitar tener que cumplimentar la Plantilla de Baremación más de una vez?**
+
+En el caso de concurrir a varias plazas, usted deberá realizar una solicitud por cada una de ellas. En dicha solicitud, tendrá la obligación de aportar toda la documentación obligatoria exigida en las Bases de la Convocatoria siendo una de ellas, el currículum en formato establecido (Plantilla de Baremación).
+
+Al tratarse de un archivo Excel, podrá cumplimentar su baremación para una plaza y, acto seguido, generar tantas copias de este en su ordenador como plazas vaya a concurrir, de esta forma tendrá una copia de su declaración.
+
+Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada una de ellas (código de la plaza, categoría si procediera y área si procediera). **Preste especial atención al área de conocimiento** ya que el Baremo Específico depende de esta y podrían producirse desajustes en su declaración en caso de error.
+
+!!! Info "Consejo"
+    Siempre revise la copia generada no solo para adaptar la sección 1 sino también para comprobar si en otro perfil de plaza tuvieran cabida nuevos méritos de su currículum.
+
 ## **Errores conocidos**
 
 ### **Error de declaración (#N/A Nº Doc.)**

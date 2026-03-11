@@ -94,8 +94,6 @@ La Plantilla de Baremación tiene una estructura de varias hojas:
 * Revisión
 * Filas adicionales
 
-### Descripción detallada del contenido
-
 #### Hoja - Bienvenida
 
 En esta hoja se le dará la bienvenida a la herramienta facilitando acceso a recursos de interés para la baremación: versión de la herramienta, avisos de utilización y página web de Centro de Ayuda.
@@ -120,104 +118,112 @@ En esta hoja encontrará una serie de controles que le ayudarán a comprobar el 
 
 En esta hoja podrá ampliar su declaración de méritos en el caso de que la extensión de la estructura de filas disponibles en la hoja *Baremacion Pormenorizada* no le resulte suficiente.
 
-# ![][image6]
+![][image6]
 
-## Cómo realizar la baremación paso a paso
+### Cómo introducir información - Estilos de celdas
 
-### Cómo introducir información
+En la herramienta se utilizan varios estilos de celda para diferenciar cuáles de estas celdas requieren la inserción de información por su parte, cuáles muestran información de manera automática o fija y cuáles están reservadas para la Comisión.
 
-En la herramienta se utilizan varios formatos de celda para diferenciar cuáles de estas requieren la inserción de información por su parte y cuáles muestran información de manera automática o fija.
+Para su distinción, se ha utilizado el siguiente estilo de colores:
 
-Para distinguir de manera sencilla entre ambas se ha utilizado una leyenda de colores donde, aquellas que requieran la inserción de información por parte del usuario se muestran en tonalidad gris clara (imagen). Este formato tiene variantes en forma de lista desplegable que le permitirán escoger una opción de entre las disponibles.  
-Asimismo, considere que la Baremación es un proceso en el que se ven implicados varios agentes (Candidatura y Comisión) por lo que, en el caso de las Observaciones y del Baremo específico, la tonalidad de celda gris oscura estará reservada para la Comisión de Baremación.
+* Celda gris clara [imagen] para las candidaturas.
+* Celda gris oscura [imagen] para las Comisiones.
+* El resto de formatos de celda no requieren interacción
 
-# Paso 1 de la baremación \- Baremación pormenorizada
+!!! info "Listas desplegables"
+    En gran parte de las celdas con las que interactuar, encontrará listas desplegables con opciones cerradas. En dichos casos, deberá seleccionar una opción de las disponibles.
 
-Antes comenzar a introducir sus méritos es importante que entienda la estructura de la hoja de baremación, la cual se distribuye en secciones:
+## Paso 1 de la baremación - Declaración de méritos en la hoja Baremación Pormenorizada
 
-![][image7]  
-**Sección 1 \- Encabezados informativos**
+La hoja de *Baremación Pormenorizada* será donde transcurra la mayor parte del tiempo a la hora de trabajar con la herramienta. Por ello, es fundamental que entienda su estructura.
 
-Información general de la plaza y datos identificativos de la candidatura.
+### Secciones de la hoja Baremación Pormenorizada
 
-**Sección 2 \- Apartados del Reglamento**
+Esta se distribuye en varias secciones tal y como puede observar en la siguiente imagen:
 
-Se refleja la estructura de apartados del Baremo Marco.
+![][image7]
 
-**Sección 3 \- Número de documento**
+#### Sección 1 - Encabezados informativos
 
-Declaración de méritos enumerados que aporta en su solicitud, donde indica el número correspondiente al mérito que está declarando.
+Aquí encontrará el logo institucional, la versión de la herramienta, los datos identificativos con las puntuaciones finales, la tabla del resumen de puntuación y un enlace con más información.
 
-**Sección 4 \- Datos para el cálculo de las puntuaciones**
+#### Sección 2 - Apartados del Reglamento
 
-Campos habilitados para introducir información necesaria para el cálculo de la puntuación.
+En esta sección, se vuelca la estructura de apartados según el Reglamento de Contratación añadiendo filas de méritos. También cuenta con un dato para identificar a qué bloque pertenece cada fila.
 
-**Sección 5 \- Puntuaciones y afinidad**
+#### Sección 3 - Número de documento
 
-Aquí se mostrarán las puntuaciones en tres niveles así como el nivel de afinidad:
+En esta sección indicará, **numéricamente**, que documento justificativo de sus méritos está declarando.
+
+!!! warning "Importante"
+    Considere que este número debe coincidir con la numeración dada por usted a los documentos justificativos de sus méritos que aporte en su expediente de solicitud de concurrencia.
+
+#### Sección 4 - Datos para el cálculo de las puntuaciones
+
+En esta sección, declarará las variables que han de ser tenidas en cuenta, según el Reglamento de Contratación, a la hora de puntuar sus méritos.
+
+!!! warning "Importante"
+    Siempre que usted declare méritos en la sección 3, deberá cumplimentar los campos de la sección 4, de lo contrario, la herramienta no dispondrá de datos para puntuar sus méritos.
+
+#### Sección 5 - Puntuaciones y valoración
+
+Aquí se mostrarán las puntuaciones en tres niveles así como la valoración según el nivel de afinidad.
 
 * **Puntuación 1 (P.1)**: Puntuación en bruto del mérito después de aplicar los pasos para el cálculo establecidos en el Reglamento de Contratación.  
 * **Valoración**: Declaración de la Comisión de Baremación sobre el nivel de afinidad del mérito y si procede o no su valoración.  
 * **Puntuación 2 (P.2)**: Puntuación 1 \+ Aplicación del nivel de afinidad.  
 * **Puntuación 3 (P.3)**: Puntuación 2 \+ Aplicación del factor de ponderación. **Sobre esta puntuación se basará la puntuación final o global.**
 
-*En este punto, considere que, hasta que finalice la baremación, los datos de valoración y puntuaciones 2 y 3 no estarán disponibles por lo que, inicialmente, solamente visualizará los valores de puntuación 1, los cuales diferirán de la puntuación final.*
+!!! info **Aclaración sobre las puntuaciones 2 y 3**
+    Considere que, tanto los datos de valoración como las puntuaciones 2 y 3 no estarán disponibles en esta herramienta hasta fases finales ya que estos datos dependen de la interacción de la Comisión. Este hecho no se producirá hasta que inicie el proceso de baremación, después de la publicación del listado definitivo y siempre y cuando usted figure como admitido.
 
-## Cumplimentación de la sección 1
+### Cumplimentación de la sección 1
 
-Una vez entendido cómo interactuar con la herramienta ([Cómo introducir información](#cómo-introducir-información)) y cuál es la estructura de la hoja de baremación pormenorizada ([Estructura de baremación pormenorizada](#heading=h.s462k31qibp0)) deberá cumplimentar los datos de la sección 1:
+Una vez entendido cómo interactuar con la herramienta y cuál es la estructura de la hoja de *Baremación Pormenorizada* deberá cumplimentar los datos de la sección 1:
 
-| Candidatura | Su nombre y apellidos respetando las reglas ortográficas (Nombre1 Nombre2 Apellido1 Apellido2) |
+| **Candidatura** | *Su nombre y apellidos (Ej: Jesús María López)* |
 | :---: | :---- |
-| **Código de la plaza\*** | Encontrará los datos en el Anexo I de la convocatoria a la que vaya concurrir, que estará disponible en el Boletín Oficial correspondiente, el portal de convocatorias de la ULL y en el Tablón de Anuncios electrónico de la ULL |
-| **Categoría de profesorado de la plaza** |  |
-| **Área de la plaza** |  |
+| **Código de la plaza** | Encontrará los datos en el Anexo I de la convocatoria a la que vaya concurrir, que estará disponible en el Boletín Oficial correspondiente, el portal de convocatorias de la ULL y en el Tablón de Anuncios electrónico de la ULL |
+| **Categoría de profesorado de la plaza** | *Seleccione una opción del desplegable* |
+| **Área de la plaza** | *Seleccione una opción del desplegable* |
 
-\***Novedad 06/05/2025** En el caso de concursos de bolsa de sustitución no existe un código alfanumérico asociado al concurso por lo que, en el campo de “Código de la plaza” deberá indicar “Bolsa de sustitución”. 
+!!! info "Concursos de bolsa de sustitución"
+    En el caso de concursos de bolsa de sustitución no existe un código alfanumérico asociado al concurso por lo que, en el campo de “Código de la plaza” deberá indicar "**Bolsa de sustitución**".
 
-## Concurrencia a varias plazas
+## Paso 2 de la baremación - Declaración de méritos
 
-En el caso de concurrir a varias plazas, usted deberá realizar una solicitud por cada una de ellas. En dicha solicitud, tendrá la obligación de aportar toda la documentación obligatoria exigida en las Bases de la Convocatoria siendo una de ellas, el currículum en formato establecido. 
+Una vez cumplimentada la sección 1, deberá proceder a declarar sus méritos cumplimentando las **secciones 3** (Número de Documento \ Nº Doc.) y **4** (Datos para el cálculo de la puntuación).
 
-Al tratarse de un archivo Excel, podrá cumplimentar su baremación para una plaza y, acto seguido, generar tantas copias de este en su ordenador como plazas vaya a concurrir. De esta forma tendrá una copia de su declaración y únicamente necesitará adaptar los datos de la sección 1 en cada una de ellas (código de la plaza, categoría si procediera y área si procediera). **Preste especial atención al área de conocimiento** ya que el Baremo Específico depende de esta y podrían producirse desajustes en su declaración en caso de error.
+### Paso 2.1 de la baremación - Cómo declarar los méritos
 
-# Paso 2 de la baremación \- Declaración de méritos
-
-Una vez cumplimentada la sección 1, deberá proceder a declarar sus méritos cumplimentando las secciones 3 (Número de Documento \-Nº Doc.-) y 4 (Datos para el cálculo de la puntuación).
-
-## Paso 2.1 de la baremación \- Cómo declarar los méritos
-
-Tal y como se expuso en el apartado [Cómo introducir información](#cómo-introducir-información), deberá interactuar con las celdas que tengan el formato adecuado según la leyenda de colores expuesta. Considerado lo anterior, para baremar deberá proceder, en general, de la siguiente manera:
+Tal y como se expuso en apartados anteriores, deberá interactuar con las celdas que tengan el formato de estilo adecuado según la leyenda de colores explicada previamente. Considerado lo anterior, para baremar deberá proceder, en general, de la siguiente manera:
 
 1. Utilizar la sección 2 (**Apartados del Reglamento**) como una guía o índice a la hora de trabajar.  
 2. Introducir los datos de la sección 3 (**Número de documento**).  
 3. Introducir los datos de la sección 4 (**Datos para el cálculo de las puntuaciones**), donde veremos los campos de obligatorio cumplimiento para el cálculo de la puntuación del mérito declarado.
 
+#### Ejemplo de declaración de un mérito
+
 Veamos cómo proceder con un ejemplo paso a paso, utilizando el apartado 1 del Bloque 1º del Reglamento de Contratación (*Expediente, premios y pruebas o trabajos de fin de titulación*).
 
-### Paso 2.1.1: Identificar en la sección 2 el apartado del mérito a declarar
+#### Paso 2.1.1: Identificar, en la sección 2, el apartado del mérito a declarar
 
-Para este ejemplo, comenzaremos por el expediente académico siguiendo el orden de contenido del Baremo Marco:
+Mirando la sección 2, buscaremos el apartado en el que debe declararse el mérito.
 
-### Paso 2.1.2: Añadir el número de documento según la relación de méritos
+#### Paso 2.1.2: Añadir el número de documento según la relación de méritos
 
-A continuación, procederemos a indicar, en la sección 3, el número de documento que corresponda según la equivalencia correspondiente de los méritos aportados en la Sede Electrónica: 
+A continuación, procederemos a declarar, en la sección 3, el número de documento según la equivalencia correspondiente de la numeración dada por usted en la relación de méritos aportada en su solicitud:
 
 ![][image8]
 
-### Paso 2.1.3: Introducir la información necesaria para el cálculo de la puntuación
+#### Paso 2.1.3: Introducir la información necesaria para el cálculo de la puntuación
 
 Si el documento acreditativo del mérito cuenta con una nota media de la titulación en base 10, introduciremos este valor en la celda correspondiente de la sección 4\. De lo contrario, deberemos utilizar el método de cálculo de puntuación alternativo[^2] (método cualitativo) y sus celdas correspondientes de esta misma sección.
 
 ![][image9]
 
-#### Errores por omisión de datos de la sección 3
-
-Note que, en el caso de que se introduzca datos de la sección 4, deberá indicar un número de documento de la sección 3\. De lo contrario, la sección 5 de puntuaciones (P1) mostrará error \#N/A Nº. doc.. Más información al respecto en la hoja de **Revisión**.
-
-#### Errores por omisión de campos de la sección 4
-
-Note que, en el caso de que se introduzca un mérito en la sección 3, deberá cumplimentar todos los campos de la sección 4 correspondientes. De lo contrario, la sección 5 de puntuaciones (P1) mostrará error \#N/A. Más información al respecto en la hoja de **Revisión**.
+!!! info "Aclaración de errores"
+    La herramienta incorpora de sistema de detección de errores que le advierte en el caso de que introduzca datos de la sección 3 pero no de la sección 4 y viceversa. **Para más detalles consulte el FAQ**.
 
 ## Paso 2.2 de la baremación: Interpretación de las puntuaciones
 
