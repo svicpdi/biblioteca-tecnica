@@ -10,6 +10,8 @@ Las preguntas se han agrupado según las siguientes categorías:
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
 
+<div class="faq-section" markdown="1">
+
 ## **RELACIONADAS CON EL FUNCIONAMIENTO DE LA HERRAMIENTA**
 
 ### **¿Cómo guardar el trabajo realizado?**
@@ -138,3 +140,5 @@ En el caso de concursos de Bolsa de sustituciones no existe una asignación de c
 El símbolo Ø no representa un error técnico, sino un estado administrativo en la hoja "Resumen de candidaturas".
 
 Indica que la candidatura no ha alcanzado la puntuación mínima exigida por el Baremo Específico del Departamento para pasar a la siguiente fase.
+
+</div>

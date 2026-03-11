@@ -1,0 +1,17 @@
+:root {
+  --md-primary-fg-color:        #5c068e;
+  --md-accent-fg-color:         #5c068e;
+}
+
+.faq-section {
+    counter-reset: h3-counter;
+}
+
+.faq-section h3 {
+    font-size: 20px;
+    counter-increment: h3-counter;
+}
+
+.faq-section h3::before {
+    content: counter(h3-counter) ". ";
+}

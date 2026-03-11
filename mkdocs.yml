@@ -66,10 +66,3 @@ markdown_extensions:
   - toc:                 # Tabla de contenidos automática
       permalink: "¶"    # Enlaces permanentes en los encabezados
       toc_depth: 2       # Profundidad de la tabla de contenidos
-
-# Estructura de Navegación (El Nav)
-nav:
-  - Inicio: index.md
-  - Baremación de plazas:
-      - Manual de  uso - Plantilla de Baremación: baremacion/plantilla_baremacion.md
-      - FAQ - Plantilla de Baremación: baremacion/faq_baremacion.md
