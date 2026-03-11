@@ -225,42 +225,48 @@ Si el documento acreditativo del mérito cuenta con una nota media de la titulac
 !!! info "Aclaración de errores"
     La herramienta incorpora de sistema de detección de errores que le advierte en el caso de que introduzca datos de la sección 3 pero no de la sección 4 y viceversa. **Para más detalles consulte el FAQ**.
 
-## Paso 2.2 de la baremación: Interpretación de las puntuaciones
+### Paso 2.2 de la baremación: Interpretación de las puntuaciones
 
-Según vaya cumplimentando su declaración de méritos, la sección 4 de la baremación irá obteniendo, de manera automatizada, las puntuaciones correspondientes en la sección 5 (Puntuaciones). Una vez terminado de introducir los datos correspondientes, la plantilla irá tomando el siguiente aspecto:![][image10]
+A medida que vaya cumplimentando su declaración de méritos, la sección 5 de la baremación irá mostrando, de manera automatizada, las puntuaciones correspondientes en la sección 5 (Puntuaciones) y la herramienta irá tomando el siguiente aspecto:
 
-Observe que, en la sección 1, se indicarán errores en la P2 y P3 derivados de la falta de interacción de la Comisión. Lo mismo sucede con el cuadro resumen de puntuación final.
+![][image10]
 
-Tal y como se comentó en el apartado [Estructura de baremación pormenorizada](#heading=h.s462k31qibp0), existen 3 tipos de puntuación:
+Observe que, en la sección 1, también se irán mostrando estos datos y, en caso de errores, también se advertirán
 
-### Puntuación 1 \- P.1: Puntuación en bruto del mérito.
+Tal y como se comentó en el apartado apartados previos, existen 3 tipos de puntuación:
 
-Esto significa que se realizan los cálculos de puntuación básicos del Reglamento de Contratación sin aplicar niveles de afinidad ni factor de ponderación por tipo de plaza. Sólo se aplican los límites máximos de puntuación establecidos.
+#### Puntuación 1 - P.1: Puntuación en bruto del mérito
 
-### Puntuación 2 \- P.2: Puntuación aplicando afinidad (no visible inicialmente).
+En esta puntuación se realizan los cálculos de puntuación básicos del Reglamento de Contratación sin aplicar niveles de afinidad ni factor de ponderación por tipo de plaza. Sólo se aplican los límites máximos de puntuación establecidos.
 
-En esta puntuación se aplica el nivel de afinidad de la plaza. Note que usted no observará esta puntuación inicialmente ya que la misma depende de la Comisión. Este aspecto será de aplicación una vez publicado el listado definitivo y entrado en fase de baremación.
+!!! info "Aclaración
+    Esta es la información que verá inicialmente pero no es la puntuación definitiva y no debe ser tomada como tal. **Ver el FAQ para más información**.
 
-### Puntuación 3 \- P.3: Puntuación aplicando afinidad y ponderación (Puntuación final  no visible inicialmente).
+#### Puntuación 2 - P.2: Puntuación aplicando afinidad (no visible inicialmente)
 
-Por último, la **P.3** es la puntuación que define el orden de prelación de la plaza ya que aplica tanto nivel de afinidad como factor de ponderación. Será la empleada en la sección 1 así como en la documentación final de la baremación emitida por la Comisión: **el resumen de la plaza, acta de comisión, baremaciones pormenorizadas y propuesta de contratación de la plaza.** Note que, al igual que la P.2, esta no será visible en la fase de concurrencia, pasando a estar disponible en la fase de baremación después del listado definitivo.
+En esta puntuación se aplican, a sus méritos de manera individualiza, el nivel de afinidad de la plaza a criterio de la Comisión.
 
-## 
+#### Puntuación 3 - P.3: Puntuación aplicando afinidad y ponderación (Puntuación final  no visible inicialmente)
 
-## Paso 2.3 de la Baremación: Bloque 8 \- Baremo Específico
+Por último, la **P.3** es la puntuación que define el orden de prelación de la plaza ya que aplica tanto nivel de afinidad como factor de ponderación. Será la que se muestre en la parte de datos identificativos de la sección 1 así como en la documentación final de la baremación emitida por la Comisión: **el resumen de la plaza, acta de comisión, baremaciones pormenorizadas y propuesta de contratación de la plaza.**
 
-Tal y como se comentó en el apartado [Cómo introducir información](#cómo-introducir-información), en este Bloque deberá incorporar los méritos que considera que han de ser valorados, realizando una mera declaración de los mismos y reservando la valoración de estos a la Comisión de Baremación. Para ello, bastará con introducir los números de documentos separados por comas  “,”.
+!!! info "Aclaración sobre las puntuaciones 2 y 3"
+     Estas puntuaciones no serán visible en la fase de concurrencia, pasando a estar disponibles en la fase de baremación después del listado definitivo.
+
+## Paso 3 de la Baremación: Baremo Específico
+
+En este Bloque deberá incorporar los méritos que considera que han de ser valorados, realizando una mera declaración de los mismos y reservando la valoración de estos a la Comisión de Baremación. Para ello, bastará con introducir los números de documentos separados por comas  “,” en la parte reservada para las candidaturas según los estilos de celda que vimos previamente.
 
 ![][image11]
 
-## Paso 2.4 de la baremación: Observaciones
+## Paso 4 de la baremación: Observaciones
 
-Al final del Bloque 8 \- Baremo Específico encontrará un campo de observaciones generales le permitirá introducir observaciones generales acerca de la baremación.  
+Al final del Bloque de Baremo Específico encontrará un campo de observaciones generales que le permitirá introducir observaciones generales acerca de la baremación.  
 ![][image12]
 
-Utilice el que está reservado para las candidaturas en el caso de desear cualquier observación. Por otro lado, si desea incorporar comentarios más específicos deberá hacer uso de la opción “Introducir comentarios” de Excel siguiendo las [instrucciones de Microsoft](https://support.microsoft.com/es-es/office/insertar-comentarios-y-notas-en-excel-bdcc9f5d-38e2-45b4-9a92-0b2b5c7bf6f8#:~:text=fines%20de%20anotaci%C3%B3n-,Haga%20clic%20derecho%20en%20la%20celda%20y%2C%20a%20continuaci%C3%B3n%2C%20haga,clic%20fuera%20de%20la%20celda.)[^3]. Con esto, la autobaremación ya estaría finalizada y su Plantilla de Baremación cumplimentada. 
+Utilice el que está reservado para las candidaturas en el caso de querer incorpora cualquier observación general. Por otro lado, si desea incorporar comentarios más específicos deberá hacer uso de la opción “Introducir comentarios” de Excel siguiendo las [instrucciones de Microsoft](https://support.microsoft.com/es-es/office/insertar-comentarios-y-notas-en-excel-bdcc9f5d-38e2-45b4-9a92-0b2b5c7bf6f8#:~:text=fines%20de%20anotaci%C3%B3n-,Haga%20clic%20derecho%20en%20la%20celda%20y%2C%20a%20continuaci%C3%B3n%2C%20haga,clic%20fuera%20de%20la%20celda.)[^3]. Con esto, la autobaremación / declaración de méritos ya estaría finalizada.
 
-## Paso 2.5 de la baremación: Filas adicionales
+## Paso 5 de la baremación: Filas adicionales
 
 En el supuesto de que en un apartado de la herramienta se encuentre con menos filas disponibles que méritos desea declarar deberá dirigirse a la hoja **Filas adicionales** y seguir las siguientes instrucciones:
 
@@ -295,56 +301,44 @@ Observe que al pegar, si ha rellenado datos en la hoja **Baremación Pormenoriza
 
 Esta solicitud de filas, en el caso de que usted figure como admisión definitiva y, por tanto, deba ser baremado, serán incorporadas por parte del Soporte Técnico a su declaración de méritos.
 
-# 
+## Paso 6 de la baremación: Revisión
 
-# Paso 3 de la baremación: Revisión
+!!! warning Compatibilidad
+    Dependiendo de su versión de Office, es posible que las funcionalidades contenidas en esta hoja no sean compatibles"
 
 Tras haber cumplimentado su declaración de méritos / autobaremación, se recomienda, antes de aportar el archivo en el procedimiento de Sede Electrónica habilitado a tal efecto, revisar la información contenida en la hoja **Revisión** para subsanar cualquier error existente.
 
-Antes de nada, debe entender que esta hoja se presenta como una funcionalidad adicional para ayudarle a revisar su declaración, no obstante:
+### Secciones de la hoja Revisión
 
 En esta hoja encontrará 4 secciones:
 
 ![][image18]
 
-### Sección 1 \- Advertencia inicial
+#### Sección 1 - Advertencia inicial
 
 En esta sección encontrará una advertencia de limitaciones de la hoja así como un control de compatibilidad de la misma.
 
-### Sección 2 \- Revisión de la sección 1 de la hoja Baremación Pormenorizada
+#### Sección 2 - Revisión de la sección 1 de la hoja Baremación Pormenorizada
 
 Comprobación de la existencia de errores en la sección 1 de la hoja **Baremación Pormenorizada** con textos explicativos de sus consecuencias y métodos de subsanación.
 
 También encontrará un cómputo general del número de méritos declarados y los errores totales existentes en la baremación.
 
-### Sección 3 \- Revisión detallada de los méritos declarados en la hoja Baremación Pormenorizada
+#### Sección 3 - Revisión detallada de los méritos declarados en la hoja Baremación Pormenorizada
 
 Encontrará un listado detallado de todos los méritos declarados, el número de veces que se repite la declaración de dicho mérito, si existe algún error así como el Bloque y Apartado de la declaración.
 
-### Sección 4 \- Revisión de posibles errores de omisión de identificación de mérito
+#### Sección 4 - Revisión de posibles errores de omisión de identificación de mérito
 
 Encontrará un listado detallado de todos aquellos apartados en los que se han indicado datos de la sección 4 de la hoja de Baremación Pormenorizada pero no se ha declarado un número de documento en la sección 3 de dicha hoja.
 
-### Incompatibilidad
-
-Se informa que esta hoja solo será compatible con las siguientes versiones de Excel:
-
-*Excel para Microsoft 365, Excel para Microsoft 365 para Mac, Excel para la Web, Excel 2024, Excel 2024 para Mac, Excel 2021, Excel 2021 para Mac, Excel para iPad, Excel para iPhone, Excel para tabletas Android, Excel para teléfonos Android, Mi Office para iPhone, Office.com*
-
-# Paso 4 de la baremación: Aportación en Sede Electrónica
+## Paso 7 de la baremación: Sede Electrónica
 
 Tras la realización de estos pasos, su Plantilla de Baremación ya estará disponible para ser aportada en el procedimiento de concurrencia de la Sede Electrónica.
 
-# Control de calidad y soporte
+## Control de calidad y soporte
 
-Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de la herramienta de Plantilla de Baremación, por favor, póngase en contacto con el Soporte cumplimentando el formulario de asistencia ([más información](https://sites.google.com/ull.edu.es/baremacion-candidaturas#h.q7y6rntl1ov7)).
-
-De esta manera, se agilizará la gestión de incidencias brindando al Soporte toda la información técnica necesaria. Además, para cuestiones que queden fuera de dicho formulario (ej: dudas en la interpretación de méritos) se pone a su disposición una dirección de correo electrónico para brindar soporte: [svicpdi@ull.edu.es](mailto:svicpdi@ull.edu.es).
-
-Este manual de uso dispone de un formulario de control de calidad que le permitirá indicar su grado de satisfacción con el mismo y ayudar en su proceso de mejora. Estará disponible accediendo al siguiente enlace:   
-[https://forms.gle/Bwg1ezBwLadNQVyX9](https://forms.gle/Bwg1ezBwLadNQVyX9).
-
-\* Antes de contactar con el Soporte Técnico, la recomendación es finalizar la declaración de méritos y abrir un caso de soporte mediante [el formulario de soporte](https://sites.google.com/ull.edu.es/baremacion-candidaturas#h.q7y6rntl1ov7) para, antes de subir el archivo a Sede Electrónica, se restablezca el código correspondiente. No obstante, la presentación de la solicitud con estos errores no provocará la exclusión del concurso ya que serían subsanados en fases posteriores del mismo \*
+Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de la herramienta de Plantilla de Baremación, por favor, revise el [repositorio de Baremación de Plazas de PDI Laboral del Centro de Ayuda](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/baremacion-pdil), en él encontrará todos los canales de comunicación.
 
 [^1]:  En el caso de LibreOffice, este paso no es necesario.
 
