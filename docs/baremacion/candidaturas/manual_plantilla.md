@@ -28,7 +28,7 @@ Para garantizar el correcto funcionamiento de la Plantilla de Baremación y evit
 * **LibreOffice Calc**
 
 ??? info "Aclaración de compatiblidad"
-    Considere que la antigüedad de el software de ofimática puede provocar la imposibilidad de acceder a algunas de las funcionalidades más avanzadas de la herramienta así como provocar errores. No obstante, esto no supone un motivo de exclusión del concurso ya que dichos errores serán subsanados en fases posteriores del concurso, siempre que usted resulte admitido definitivo.
+    Considere que la antigüedad del software de ofimática puede provocar la imposibilidad de acceder a algunas de las funcionalidades más avanzadas de la herramienta así como provocar errores. No obstante, esto no supone un motivo de exclusión del concurso ya que dichos errores serán subsanados en fases posteriores del concurso, siempre que usted resulte admitido definitivo.
 
     !!! success "Versiones 100% compatibles"
         **Utilice Office 365** para garantizar el 100% de compatibilidad.
@@ -50,7 +50,7 @@ Asimismo, en este repositorio también encontrará el acceso al [log de desarrol
 !!! info "Nota importante"
     Asegúrese siempre de utilizar una versión aceptada para la convocatoria objeto de su interés. Puede verificar el número de versión en el nombre del archivo descargado y en las hojas de "Bienvenida" y "Baremación pormenorizada".
 
-??? question "¿Cómo hago para reciclar una versión?
+??? question "¿Cómo hago para reciclar una versión?"
     Visite el [FAQ de la Biblioteca Técnica]() para más información.
 
 ## Primeros pasos: Preparación y estructura de la herramienta
@@ -76,7 +76,9 @@ Antes de la apertura, deberá reemplazar la parte correspondiente con sus datos 
 !!! note "Ejemplo"
     BM 24 2.0.1 - Plantilla de Baremación de "Jesús María Rodríguez".xlsx
 
-### Primera apertura[^1]
+### Primera apertura
+
+!!! info En LibreOffice este paso no es preciso
 
 Debido a la política de seguridad de Microsoft,  con la primera apertura veremos el siguiente mensaje:
 
@@ -153,7 +155,7 @@ En esta sección, se vuelca la estructura de apartados según el Reglamento de C
 
 #### Sección 3 - Número de documento
 
-En esta sección indicará, **numéricamente**, que documento justificativo de sus méritos está declarando.
+En esta sección indicará, **numéricamente**, qué documento justificativo de sus méritos está declarando.
 
 !!! warning "Importante"
     Considere que este número debe coincidir con la numeración dada por usted a los documentos justificativos de sus méritos que aporte en su expediente de solicitud de concurrencia.
@@ -163,7 +165,7 @@ En esta sección indicará, **numéricamente**, que documento justificativo de s
 En esta sección, declarará las variables que han de ser tenidas en cuenta, según el Reglamento de Contratación, a la hora de puntuar sus méritos.
 
 !!! warning "Importante"
-    Siempre que usted declare méritos en la sección 3, deberá cumplimentar los campos de la sección 4, de lo contrario, la herramienta no dispondrá de datos para puntuar sus méritos.
+    Siempre que usted declare méritos en la sección 3, deberá cumplimentar los campos de la sección 4, de lo contrario, la herramienta no dispondrá de datos para puntuar sus méritos y arrojará errores.
 
 #### Sección 5 - Puntuaciones y valoración
 
@@ -174,15 +176,16 @@ Aquí se mostrarán las puntuaciones en tres niveles así como la valoración se
 * **Puntuación 2 (P.2)**: Puntuación 1 \+ Aplicación del nivel de afinidad.  
 * **Puntuación 3 (P.3)**: Puntuación 2 \+ Aplicación del factor de ponderación. **Sobre esta puntuación se basará la puntuación final o global.**
 
-!!! info **Aclaración sobre las puntuaciones 2 y 3**
+!!! info "Aclaración sobre las puntuaciones 2 y 3"
     Considere que, tanto los datos de valoración como las puntuaciones 2 y 3 no estarán disponibles en esta herramienta hasta fases finales ya que estos datos dependen de la interacción de la Comisión. Este hecho no se producirá hasta que inicie el proceso de baremación, después de la publicación del listado definitivo y siempre y cuando usted figure como admitido.
 
 ### Cumplimentación de la sección 1
 
 Una vez entendido cómo interactuar con la herramienta y cuál es la estructura de la hoja de *Baremación Pormenorizada* deberá cumplimentar los datos de la sección 1:
 
+| | |
+| --- | --- |
 | **Candidatura** | *Su nombre y apellidos (Ej: Jesús María López)* |
-| :---: | :---- |
 | **Código de la plaza** | Encontrará los datos en el Anexo I de la convocatoria a la que vaya concurrir, que estará disponible en el Boletín Oficial correspondiente, el portal de convocatorias de la ULL y en el Tablón de Anuncios electrónico de la ULL |
 | **Categoría de profesorado de la plaza** | *Seleccione una opción del desplegable* |
 | **Área de la plaza** | *Seleccione una opción del desplegable* |
@@ -218,7 +221,9 @@ A continuación, procederemos a declarar, en la sección 3, el número de docume
 
 #### Paso 2.1.3: Introducir la información necesaria para el cálculo de la puntuación
 
-Si el documento acreditativo del mérito cuenta con una nota media de la titulación en base 10, introduciremos este valor en la celda correspondiente de la sección 4\. De lo contrario, deberemos utilizar el método de cálculo de puntuación alternativo[^2] (método cualitativo) y sus celdas correspondientes de esta misma sección.
+Si el documento acreditativo del mérito cuenta con una nota media de la titulación en base 10, introduciremos este valor en la celda correspondiente de la sección 4\. De lo contrario, deberemos utilizar el método de cálculo de puntuación alternativo (método cualitativo) y sus celdas correspondientes de esta misma sección.
+
+!!! info "Considere que este es el único apartado del Baremo Marco que contempla dos métodos de cálculo"
 
 ![][image9]
 
@@ -264,7 +269,10 @@ En este Bloque deberá incorporar los méritos que considera que han de ser valo
 Al final del Bloque de Baremo Específico encontrará un campo de observaciones generales que le permitirá introducir observaciones generales acerca de la baremación.  
 ![][image12]
 
-Utilice el que está reservado para las candidaturas en el caso de querer incorpora cualquier observación general. Por otro lado, si desea incorporar comentarios más específicos deberá hacer uso de la opción “Introducir comentarios” de Excel siguiendo las [instrucciones de Microsoft](https://support.microsoft.com/es-es/office/insertar-comentarios-y-notas-en-excel-bdcc9f5d-38e2-45b4-9a92-0b2b5c7bf6f8#:~:text=fines%20de%20anotaci%C3%B3n-,Haga%20clic%20derecho%20en%20la%20celda%20y%2C%20a%20continuaci%C3%B3n%2C%20haga,clic%20fuera%20de%20la%20celda.)[^3]. Con esto, la autobaremación / declaración de méritos ya estaría finalizada.
+Utilice el que está reservado para las candidaturas en el caso de querer incorpora cualquier observación general. Por otro lado, si desea incorporar comentarios más específicos deberá hacer uso de la opción “Introducir comentarios” de Excel siguiendo las [instrucciones de Microsoft](https://support.microsoft.com/es-es/office/insertar-comentarios-y-notas-en-excel-bdcc9f5d-38e2-45b4-9a92-0b2b5c7bf6f8#:~:text=fines%20de%20anotaci%C3%B3n-,Haga%20clic%20derecho%20en%20la%20celda%20y%2C%20a%20continuaci%C3%B3n%2C%20haga,clic%20fuera%20de%20la%20celda.). Con esto, la autobaremación / declaración de méritos ya estaría finalizada.
+
+!!! warning "Observaciones específicas"
+    La funcionalidad para inoorporar observaciones específicas puede resultar compatible con LibreOffice o versiones antiguas de Excel.
 
 ## Paso 5 de la baremación: Filas adicionales
 
@@ -274,30 +282,37 @@ Imaginemos la siguiente declaración de méritos para los apartados 1.1 (Expedie
 ![][image13]  
 Si deseara añadir filas adicionales para cualquiera de estos apartados deberá seguir los siguientes pasos:
 
-| *Paso 1* | Diríjase a la fila que desee replicar de la hoja Baremación Pormenorizada y seleccione y copie el rango A:W correspondiente |
-| :---: | :---- |
+### Paso 1
+
+Diríjase a la fila que desee replicar de la hoja Baremación Pormenorizada y seleccione y copie el rango A:W correspondiente.
 
 ![][image14]
 
-| *Paso 2* | Péguela tantas veces como filas adicionales necesite en la columna B de esta hoja, a partir de la fila 15 (tonalidad gris) |
-| ----: | :---- |
+### Paso 2
+
+Péguela tantas veces como filas adicionales necesite en la columna B de esta hoja, a partir de la fila 15 (tonalidad gris).
 
 ![][image15]
 
-| *Paso 3* | Confirme que la celda de la columna A (tonalidad negra) le devuelve "✓" lo cual indica que se pueden añadir filas en este apartado. En caso de no ser posible devolverá "🛇" |
-| ----: | :---- |
+### Paso 3
 
-![][image16]  
+Confirme que la celda de la columna A (tonalidad negra) le devuelve "✓", lo cual indica que se pueden añadir filas en este apartado. En caso de no ser posible, devolverá "🛇".
+
+![][image16]
+
 Observe como, en este ejemplo, el apartado 1.1 no permite la adición de filas mientras que el apartado 2 sí lo permite.
 
-| *Paso 4* | Cumplimente las secciones 3 y 4 que acaba de pegar en esta hoja siguiendo el mismo procedimiento de cumplimentación que en la hoja Baremación Pormenorizada |
-| ----: | :---- |
+### Paso 4
 
-Observe que al pegar, si ha rellenado datos en la hoja **Baremación Pormenorizada** estos se pegarán por lo que deberá sustituir la información de las secciones 3 y 4 en la hoja Filas Adicionales por la información correcta. La lógica de la cumplimentación es la misma que en la hoja de **Baremación Pormenorizada**.  
+Cumplimente las secciones 3 y 4 que acaba de pegar en esta hoja siguiendo el mismo procedimiento de cumplimentación que en la hoja Baremación Pormenorizada.
+
+Nota: Al pegar, si ha rellenado datos en la hoja Baremación Pormenorizada, estos se arrastrarán. Deberá sustituir la información de las secciones 3 y 4 en esta hoja por la correcta.
+
 ![][image17]
 
-| *Paso 5* | Las filas solicitadas serán incorporadas a su declaración (hoja de Baremación Pormenorizada) en fases posteriores del concurso siempre que figure como admisión definitiva |
-| ----: | :---- |
+### Paso 5
+
+Las filas solicitadas serán incorporadas a su declaración (hoja de Baremación Pormenorizada) en fases posteriores del concurso siempre que figure como admisión definitiva.
 
 Esta solicitud de filas, en el caso de que usted figure como admisión definitiva y, por tanto, deba ser baremado, serán incorporadas por parte del Soporte Técnico a su declaración de méritos.
 
@@ -339,12 +354,6 @@ Tras la realización de estos pasos, su Plantilla de Baremación ya estará disp
 ## Control de calidad y soporte
 
 Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de la herramienta de Plantilla de Baremación, por favor, revise el [repositorio de Baremación de Plazas de PDI Laboral del Centro de Ayuda](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/baremacion-pdil), en él encontrará todos los canales de comunicación.
-
-[^1]:  En el caso de LibreOffice, este paso no es necesario.
-
-[^2]:  Considere que este apartado del Baremo Marco es el único que consta de dos métodos alternativos de cálculo. 
-
-[^3]:  La utilización de esta funcionalidad puede resultar incompatible en LibreOffice así como con versiones de Microsoft Excel distintas de Office 365
 
 [image1]: <data:image/png;base64,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>
 
