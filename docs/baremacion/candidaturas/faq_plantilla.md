@@ -1,5 +1,7 @@
 # FAQ - Plantilla de Baremación
 
+<div class="faq-section" markdown="1">
+
 Este apartado pretende dar respuesta a las posibles preguntas que cualquier persona interesada, durante la fase de baremación de una plaza de PDI, pueda experimentar haciendo uso de la Plantilla de Baremación.
 
 Las preguntas se han agrupado según las siguientes categorías:
@@ -9,8 +11,6 @@ Las preguntas se han agrupado según las siguientes categorías:
 3. Relacionadas con la baremación.
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
-
-<div class="faq-section" markdown="1">
 
 ## **RELACIONADAS CON EL FUNCIONAMIENTO DE LA HERRAMIENTA**
 
@@ -127,6 +127,7 @@ En el caso de concursos de Bolsa de sustituciones no existe una asignación de c
 
     !!! success "Solución: Resolución por Plataforma"
         Este error se soluciona ejecutando la herramienta en un entorno compatible.
+
 ### **Error de referencia (#REF)**
 
 !!! failure "Error: Código Dañado o Celda Desplazada"

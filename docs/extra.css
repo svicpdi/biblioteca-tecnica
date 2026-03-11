@@ -64,3 +64,12 @@
 .footer-list li {
   margin-bottom: 8px;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.md-nav {
+    text-align: left;
+}

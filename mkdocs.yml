@@ -12,6 +12,8 @@ theme:
   name: material
   language: es  # Idioma de la interfaz (buscador, etiquetas)
   custom_dir: overrides
+  repo_name: svicpdi/biblioteca-tecnica  # El nombre que quieres que se lea
+  repo_url: https://github.com/svicpdi/biblioteca-tecnica  # El enlace real
   features:
     - navigation.tabs      # Menú superior en lugar de lateral (opcional)
     - navigation.sections  # Agrupar secciones en el menú
