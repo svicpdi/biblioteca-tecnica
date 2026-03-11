@@ -36,25 +36,26 @@ Para garantizar el correcto funcionamiento de la Plantilla de Baremación y evit
 !!! warning "Declaración responsable"
     Recuerde que, en el fomulario de solicitud de concurrencia del procedimiento de Sede Electrónica, usted acepta en la Declaración Responsable:
 
-    !!! quote
+    !!! quote "Cita"
         *Se compromete a la ejecución y uso de la herramienta de baremación en un entorno compatible de Microsoft Excel o LibreOffice Calc. La utilización de este en un entorno distinto de los mencionados, así como cualquier manipulación que pueda suponer un uso fraudulento, conllevará la exclusión del procedimiento.*
 
     **Por ello, la utilización de la suite ofimática de Google Workspace más conocida como Google Drive / Google Sheets no está permitida y podrá ser motivo de exclusión del concurso al ir contra las políticas de garantía de la Universidad de La Laguna.** 
 
+### Descarga y versiones
 
-### Descarga y Versiones
+Para descargar la herramienta, siga las instrucciones indicadas en el [repositorio de Baremación de Plazas de PDI Laboral del Centro de Ayuda](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/baremacion-pdil).
 
-La herramienta oficial y su historial de actualizaciones están disponibles en los siguientes enlaces:
-
-Descarga de la herramienta: Portal de Baremación ULL
-Notas de la Versión: Registro de desarrollo y cambios
+Asimismo, en este repositorio también encontrará el acceso al [log de desarrollo](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/logs) que contiene todos los cambios introducidos en las versiones de la herramienta.
 
 !!! info "Nota importante"
     Asegúrese siempre de utilizar una versión aceptada para la convocatoria objeto de su interés. Puede verificar el número de versión en el nombre del archivo descargado y en las hojas de "Bienvenida" y "Baremación pormenorizada".
 
+??? question "¿Cómo hago para reciclar una versión?
+    Visite el [FAQ de la Biblioteca Técnica]() para más información.
+
 ## Primeros pasos: Preparación y estructura de la herramienta
 
-## Antes de comenzar
+### Tras la descarga
 
 Cuando descargue el archivo, observará que el mismo tiene la siguiente estructura de nombramiento:
 
@@ -62,64 +63,68 @@ Cuando descargue el archivo, observará que el mismo tiene la siguiente estructu
 
 En esta se identifica:
 
-* Versión del Reglamento (BM 24\)
+* Versión del Reglamento - *BM 24*
 
-* Versión de la herramienta (2.0.0)
+* Versión de la herramienta - *2.0.0*
 
-* Plantilla de Baremación (archivo del expediente)
+* Plantilla de Baremación - *nombre de la herramienta*
 
-* de “sustituir por su nombre” (donde debe reemplazar por su nombre y apellidos separados por espacio)
+* de “sustituir por su nombre” - **Aquí, sustituya el contenido entre comillas por su nombre real**
 
 Antes de la apertura, deberá reemplazar la parte correspondiente con sus datos de tal forma que el archivo quede renombrado de la siguiente manera:![][image2]
 
-## Primera apertura[^1]
+!!! note "Ejemplo"
+    BM 24 2.0.1 - Plantilla de Baremación de "Jesús María Rodríguez".xlsx
 
-Debido a la política de protección de datos de Microsoft, una vez [descargada la plantilla](https://www.ull.es/personal-docente-e-investigador/#1703161841237-af0c679c-5b44) es necesario que, cuando se abra por primera vez el archivo Excel en esta suite, **se habiliten los permisos de edición para poder trabajar con la herramienta**.
+### Primera apertura[^1]
+
+Debido a la política de seguridad de Microsoft,  con la primera apertura veremos el siguiente mensaje:
 
 ![][image3]
 
-Haremos clic en “Habilitar edición” para poder utilizar el archivo.
+Haremos clic en “Habilitar edición” para poder editar el archivo.
 
-## Estructura de contenido
+### Estructura de contenido de la herramienta
 
-La Plantilla de Baremación tiene una estructura sencilla basada en 4 hojas:
+La Plantilla de Baremación tiene una estructura de varias hojas:
 
-| \- Bienvenida | \- Prorrateos | \- Baremación Pormenorizada | \- Revisión |
-| :---- | :---- | :---- | :---- |
+* Bienvenida
+* Prorrateros
+* Baremación pormenorizada
+* Revisión
+* Filas adicionales
 
-## Descripción detallada del contenido
+### Descripción detallada del contenido
 
-### Hoja \- Bienvenida
+#### Hoja - Bienvenida
 
-En esta hoja se le dará la bienvenida a la herramienta facilitando acceso a recursos de interés para la baremación: versión de la herramienta, avisos de utilización y web de baremación.
+En esta hoja se le dará la bienvenida a la herramienta facilitando acceso a recursos de interés para la baremación: versión de la herramienta, avisos de utilización y página web de Centro de Ayuda.
 
-### Hoja \- Prorrateos
+#### Hoja - Prorrateos
 
-En esta hoja encontrará una serie de calculadoras que le ayudarán a la hora de prorratear ciertos valores en caso de necesidad durante la cumplimentación de la baremación.
+En esta hoja encontrará una serie de calculadoras que, en caso de necesidad, le ayudarán a la hora de prorratear ciertos valores durante su declaración de méritos.
 
-### 
+#### Hoja - Baremación Pormenorizada
 
-### Hoja \- Baremación Pormenorizada
-
-En esta hoja realizará su baremación pormenorizada siguiendo la estructura del Reglamento de Contratación de la ULL.
+En esta hoja realizará su baremación pormenorizada / declaración de méritos, con arrelgo a lo indicado en el Reglamento de Contratación de la ULL.
 
 ![][image4]
 
-### Hoja \- Revisión
+#### Hoja - Revisión
 
-En esta hoja encontrará un resumen del estado de su baremación que le ayudará a revisar la declaración existente en la hoja **Baremacion Pormenorizada**.
+En esta hoja encontrará una serie de controles que le ayudarán a comprobar el estado de su declaración de méritos según datos de la hoja *Baremacion Pormenorizada*.
 
 ![][image5]
 
-### Hoja \- Filas adicionales
+#### Hoja - Filas adicionales
 
-En esta hoja encontrará un espacio donde puede ampliar la extensión de la estructura de filas disponibles en la hoja **Baremacion Pormenorizada**.
+En esta hoja podrá ampliar su declaración de méritos en el caso de que la extensión de la estructura de filas disponibles en la hoja *Baremacion Pormenorizada* no le resulte suficiente.
 
 # ![][image6]
 
-# Cómo realizar la baremación paso a paso
+## Cómo realizar la baremación paso a paso
 
-## Cómo introducir información
+### Cómo introducir información
 
 En la herramienta se utilizan varios formatos de celda para diferenciar cuáles de estas requieren la inserción de información por su parte y cuáles muestran información de manera automática o fija.
 
