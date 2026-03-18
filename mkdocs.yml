@@ -22,6 +22,10 @@ theme:
     - search.suggest       # Sugerencias al escribir en el buscador
     - search.highlight     # Resaltar términos buscados
     - content.code.copy    # Botón de copiar en bloques de código
+    - content.code.annotate # Anotaciones en bloques de código (requerido para mermaid)
+    - content.tabs.link    # Permite enlazar pestañas (requerido para tabbed)
+    - content.toc          # Tabla de contenidos automática en cada página
+    - navigation.instant     # Carga instantánea de páginas (sin recargar toda la página)
 
   # Personalización de Colores
   palette:
@@ -43,6 +47,12 @@ theme:
         icon: material/brightness-4
         name: Cambiar a modo claro
 
+# --- SECCIÓN DE VERSIONES ---
+extra:
+  version:
+    provider: mike
+# ----------------------------
+
 # Plugins Esenciales
 plugins:
   - search        # El buscador (obligatorio)
@@ -59,7 +69,7 @@ plugins:
 markdown_extensions:
   - admonition          # Cuadros de aviso (Note, Warning, etc.)
   - pymdownx.details    # Secciones colapsables
-  - pymdownx.superfences: # Bloques de código avanzados
+    - pymdownx.superfences: # Bloques de código avanzados
       custom_fences:
         - name: mermaid
           class: mermaid
