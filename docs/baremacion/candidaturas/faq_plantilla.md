@@ -24,13 +24,15 @@ Usted podrá hacer uso de Microsoft online de cara a introducir méritos pero es
 
 ### **¿Qué significa que el número de documento salga en amarillo en la sección 3?**
 
-Es un aviso que le alertará de la utilización de un mismo documento en más de una ocasión en la baremación. Recuerde que el Baremo Marco dictamina que un mérito, por norma general, no puede ser valorado en más de una ocasión. Sin embargo, es posible encontrar un documento que acredite varios méritos diferentes.
+Es un aviso que le alertará de la utilización de un mismo número de documento en más de una ocasión en la declaración de méritos.
 
-### **Hay celdas que piden una contraseña ¿Cuál se debe utilizar?**
+Esto no implica un error por defecto ya que, aunque el Reglamento de Contratación indica que un mérito no puede ser valorado en más de un apartado del Baremo Marco, pueden existir documentos que acrediten más de un mérito, lo cual no sería un error.
 
-Por motivos de seguridad, la herramienta está implementada en un sistema de protección que no necesita la interacción libre del usuario con la totalidad de la herramienta. Esto significa, que para poder realizar la baremación, no es necesario que interactúe con más celdas de las necesarias. Recuerde lo expuesto en el apartado [Consideraciones generales](#heading=h.f3s943hst4o7).
+### **La Plantilla de Baremación pide una contraseña. ¿Cuál se debe utilizar?**
 
-Sin embargo, en el caso de encontrarse con una celda de interacción que no le permita incorporar información deberá ponerse en contacto con el soporte..
+Por motivos de seguridad y garantías, la herramienta está desarrolalda bajo un sistema de protección que no necesita la interacción libre del usuario con la totalidad de la herramienta. Esto significa que para poder realizar la baremación no es necesario que interactúe con más celdas de las necesarias. Recuerde lo expuesto en el apartado [Consideraciones generales](#heading=h.f3s943hst4o7).
+
+Sin embargo, en el caso de encontrarse con una celda de interacción que no le permita incorporar información deberá ponerse en contacto con el soporte.
 
 ### **¿Cómo se puede añadir un comentario u observación a un mérito aportado por la candidatura y valorado en la baremación pormenorizada?**
 

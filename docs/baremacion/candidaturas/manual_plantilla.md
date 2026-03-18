@@ -27,7 +27,7 @@ Para garantizar el correcto funcionamiento de la Plantilla de Baremación y evit
 * **Microsoft Excel**
 * **LibreOffice Calc**
 
-??? info "Aclaración de compatiblidad"
+!!! info "Aclaración de compatiblidad"
     Considere que la antigüedad del software de ofimática puede provocar la imposibilidad de acceder a algunas de las funcionalidades más avanzadas de la herramienta así como provocar errores. No obstante, esto no supone un motivo de exclusión del concurso ya que dichos errores serán subsanados en fases posteriores del concurso, siempre que usted resulte admitido definitivo.
 
     !!! success "Versiones 100% compatibles"
@@ -80,7 +80,7 @@ Antes de la apertura, deberá reemplazar la parte correspondiente con sus datos 
 
 ### Primera apertura
 
-!!! info En LibreOffice este paso no es preciso
+!!! info "En LibreOffice este paso no es preciso"
 
 Debido a la política de seguridad de Microsoft,  con la primera apertura veremos el siguiente mensaje:
 
@@ -136,7 +136,7 @@ Para su distinción, se ha utilizado el siguiente estilo de colores:
 
 * Celda gris clara ![celda candidaturas](../../assets/images/image9.png) para las candidaturas.
 * Celda gris oscura ![celda comisiones](../../assets/images/image26.png) para las Comisiones.
-* El resto de formatos de celda no requieren interacción
+* El resto de formatos de celda no requieren interacción.
 
 !!! info "Listas desplegables"
     En gran parte de las celdas con las que interactuar, encontrará listas desplegables con opciones cerradas. En dichos casos, deberá seleccionar una opción de las disponibles.
@@ -158,14 +158,14 @@ Aquí encontrará el logo institucional, la versión de la herramienta, los dato
 
 #### Sección 2 - Apartados del Reglamento
 
-En esta sección, se vuelca la estructura de apartados según el Reglamento de Contratación añadiendo filas de méritos. También cuenta con un dato para identificar a qué bloque pertenece cada fila.
+En esta sección, se representa la estructura de apartados según el Reglamento de Contratación así como las filas disponibles para declarar sus méritos.
 
 #### Sección 3 - Número de documento
 
 En esta sección indicará, **numéricamente**, qué documento justificativo de sus méritos está declarando.
 
 !!! warning "Importante"
-    Considere que este número debe coincidir con la numeración dada por usted a los documentos justificativos de sus méritos que aporte en su expediente de solicitud de concurrencia.
+    Considere que este número debe coincidir con la numeración dada por usted a los documentos justificativos de sus méritos aportados en su expediente de solicitud de concurrencia.
 
 #### Sección 4 - Datos para el cálculo de las puntuaciones
 
@@ -176,7 +176,7 @@ En esta sección, declarará las variables que han de ser tenidas en cuenta, seg
 
 #### Sección 5 - Puntuaciones y valoración
 
-Aquí se mostrarán las puntuaciones en tres niveles así como la valoración según el nivel de afinidad.
+Aquí se mostrarán las puntuaciones resultantes de su declaración en tres niveles así como la valoración estimada por la Comisión según el nivel de afinidad del mérito a la plaza.
 
 * **Puntuación 1 (P.1)**: Puntuación en bruto del mérito después de aplicar los pasos para el cálculo establecidos en el Reglamento de Contratación.  
 * **Valoración**: Declaración de la Comisión de Baremación sobre el nivel de afinidad del mérito y si procede o no su valoración.  
@@ -188,7 +188,7 @@ Aquí se mostrarán las puntuaciones en tres niveles así como la valoración se
 
 ### Cumplimentación de la sección 1
 
-Una vez entendido cómo interactuar con la herramienta y cuál es la estructura de la hoja de *Baremación Pormenorizada* deberá cumplimentar los datos de la sección 1:
+Una vez entendido cómo interactuar con la herramienta y cuál es la estructura de la hoja de *Baremación Pormenorizada* deberá cumplimentar los datos de la sección 1 de esta hoja:
 
 | | |
 | --- | --- |
@@ -197,7 +197,7 @@ Una vez entendido cómo interactuar con la herramienta y cuál es la estructura 
 | **Categoría de profesorado de la plaza** | *Seleccione una opción del desplegable* |
 | **Área de la plaza** | *Seleccione una opción del desplegable* |
 
-!!! info "Concursos de bolsa de sustitución"
+!!! info "Aclaración sobre el código de los concursos de bolsa de sustitución"
     En el caso de concursos de bolsa de sustitución no existe un código alfanumérico asociado al concurso por lo que, en el campo de “Código de la plaza” deberá indicar "**Bolsa de sustitución**".
 
 ## Paso 2 de la baremación - Declaración de méritos
@@ -209,8 +209,8 @@ Una vez cumplimentada la sección 1, deberá proceder a declarar sus méritos cu
 Tal y como se expuso en apartados anteriores, deberá interactuar con las celdas que tengan el formato de estilo adecuado según la leyenda de colores explicada previamente. Considerado lo anterior, para baremar deberá proceder, en general, de la siguiente manera:
 
 1. Utilizar la sección 2 (**Apartados del Reglamento**) como una guía o índice a la hora de trabajar.  
-2. Introducir los datos de la sección 3 (**Número de documento**).  
-3. Introducir los datos de la sección 4 (**Datos para el cálculo de las puntuaciones**), donde veremos los campos de obligatorio cumplimiento para el cálculo de la puntuación del mérito declarado.
+2. Introducir el número de documento del mérito en la sección 3 (**Número de documento**).  
+3. Introducir los datos del mérito de la sección 4 (**Datos para el cálculo de las puntuaciones**).
 
 #### Ejemplo de declaración de un mérito
 
@@ -230,22 +230,26 @@ A continuación, procederemos a declarar, en la sección 3, el número de docume
 
 #### Paso 2.1.3: Introducir la información necesaria para el cálculo de la puntuación
 
-Si el documento acreditativo del mérito cuenta con una nota media de la titulación en base 10, introduciremos este valor en la celda correspondiente de la sección 4. De lo contrario, deberemos utilizar el método de cálculo de puntuación alternativo (método cualitativo) y sus celdas correspondientes de esta misma sección.
+Si el documento acreditativo del mérito cuenta con una nota media de la titulación en base 10, introduciremos este valor en la celda correspondiente de la sección 4. De lo contrario, deberemos utilizar el método de cálculo de puntuación alternativo (método cualitativo) y sus celdas correspondientes.
 
 ![sección 4](../../assets/images/image14.png)
 
 !!! info "Considere que este es el único apartado del Baremo Marco que contempla dos métodos de cálculo"
 
 !!! info "Aclaración de errores"
-    La herramienta incorpora de sistema de detección de errores que le advierte en el caso de que introduzca datos de la sección 3 pero no de la sección 4 y viceversa. **Para más detalles consulte el FAQ**.
+    La herramienta incorpora un sistema de detección de errores en la declaración que le advierte en el caso de que introduzca datos de la sección 3 pero no de la sección 4 y viceversa. **Para más detalles consulte el FAQ**.
 
 ### Paso 2.2 de la baremación: Interpretación de las puntuaciones
 
-A medida que vaya cumplimentando su declaración de méritos, la sección 5 de la baremación irá mostrando, de manera automatizada, las puntuaciones correspondientes en la sección 5 (Puntuaciones). Con ello, la herramienta irá tomando el siguiente aspecto:
+A medida que vaya cumplimentando su declaración de méritos, la sección 5 de la baremación irá mostrando, de manera automatizada, las puntuaciones correspondientes. Con ello, la herramienta irá tomando el siguiente aspecto:
 
 ![sección 5](../../assets/images/image15.png)
 
 Observe que, en la sección 1, también se irán actualizando datos y, en caso de errores, también se advertirán.
+
+??? question "¿Cómo se interpretan los errores de la imagen?"
+    En la imagen se observan varias incidencias. Por un lado, los datos personales y de identificación no están cumplimentados por lo que tenemos textos en rojo a modo de advertencia que nos indican "Sin identificar". Además, en el cuadro resumen de la sección 1 se observa que para la P1 existen 2 errores. Para identificarlos hay que revisar el bloque correspondiente en el que se indica su existencia.
+    En este caso, tenemos dos errores, '#N/A' y '#N/A Nº Doc'. Ambos son advertidos en la sección 5 en sus filas correspondientes. Para más información sobre estos, consulte el FAQ.
 
 Tal y como se comentó en apartados previos, existen 3 tipos de puntuación:
 
@@ -291,24 +295,25 @@ Utilice la celda que está reservada para las candidaturas en el caso de querer 
 
 En el supuesto de que, en un apartado de la herramienta, se encuentre con menos filas disponibles que méritos desea declarar deberá dirigirse a la hoja **Filas adicionales** y seguir las siguientes instrucciones:
 
-Imaginemos la siguiente declaración de méritos para los apartados 1.1 (Expediente Académico) y 1.2 (Premios fin de carrera) del Bloque 1: 
+Imaginemos la siguiente declaración de méritos para los apartados 1.1 (Expediente Académico) y 1.2 (Premios fin de carrera) del Bloque 1:
+
 ![filas adicionales - Introducción](../../assets/images/image18.png)
 
 Si deseara añadir filas adicionales para cualquiera de estos apartados deberá seguir los siguientes pasos:
 
-### Paso 1
+### Paso 1 - Filas adicionales
 
 Diríjase a la fila que desee replicar de la hoja Baremación Pormenorizada y seleccione y copie el rango A:W correspondiente.
 
 ![filas adicionales - Paso 1](../../assets/images/image19.png)
 
-### Paso 2
+### Paso 2 - Filas adicionales
 
 Péguela tantas veces como filas adicionales necesite en la columna B de esta hoja, a partir de la fila 15 (tonalidad gris).
 
 ![filas adicionales - Paso 2](../../assets/images/image20.png)
 
-### Paso 3
+### Paso 3 - Filas adicionales
 
 Confirme que la celda de la columna A (tonalidad negra) le devuelve "✓", lo cual indica que se pueden añadir filas en este apartado. En caso de no ser posible, devolverá "🛇".
 
@@ -316,15 +321,15 @@ Confirme que la celda de la columna A (tonalidad negra) le devuelve "✓", lo cu
 
 Observe como, en este ejemplo, el apartado 1.1 no permite la adición de filas mientras que el apartado 2 sí lo permite.
 
-### Paso 4
+### Paso 4 - Filas adicionales
 
 Cumplimente las secciones 3 y 4 que acaba de pegar en esta hoja siguiendo el mismo procedimiento de cumplimentación que en la hoja Baremación Pormenorizada.
 
-Nota: Al pegar, si ha rellenado datos en la hoja Baremación Pormenorizada, estos se arrastrarán. Deberá sustituir la información de las secciones 3 y 4 en esta hoja por la correcta.
+Nota: Al pegar, considere que los datos de las secciones 3 y 4 serán los de origen. Por tanto, deberá sustituir la información de las secciones 3 y 4 por aquellos reales tras realizar la acción de pegar.
 
 ![filas adicionales - Paso 4](../../assets/images/image22.png)
 
-### Paso 5
+### Paso 5 - Filas adicionales
 
 Las filas solicitadas serán incorporadas a su declaración (hoja de Baremación Pormenorizada) en fases posteriores del concurso siempre que figure como admisión definitiva.
 
@@ -332,8 +337,7 @@ Esta solicitud de filas, en el caso de que usted figure como admisión definitiv
 
 ## Paso 6 de la baremación: Revisión
 
-!!! warning Compatibilidad
-    Dependiendo de su versión de Office, es posible que las funcionalidades contenidas en esta hoja no sean compatibles"
+!!! warning "Dependiendo de su versión de Office, es posible que las funcionalidades contenidas en esta hoja no sean compatibles"
 
 Tras haber cumplimentado su declaración de méritos / autobaremación, se recomienda, antes de aportar el archivo en el procedimiento de Sede Electrónica habilitado a tal efecto, revisar la información contenida en la hoja **Revisión** para subsanar cualquier error existente.
 
@@ -341,7 +345,7 @@ Tras haber cumplimentado su declaración de méritos / autobaremación, se recom
 
 En esta hoja encontrará 4 secciones:
 
-![Secciones de la hoja revisión](../../assets/images/image23.png)
+![Secciones de la hoja revisión](../../assets/images/image24.png)
 
 #### Sección 1 - Advertencia inicial
 
@@ -368,3 +372,54 @@ Tras la realización de estos pasos, su Plantilla de Baremación ya estará disp
 ## Control de calidad y soporte
 
 Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de la herramienta de Plantilla de Baremación, por favor, revise el [repositorio de Baremación de Plazas de PDI Laboral del Centro de Ayuda](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/baremacion-pdil), en él encontrará todos los canales de comunicación.
+
+## Flujo del proceso
+
+```mermaid
+graph TD
+    %% Nodos iniciales
+    Start([Inicio: Descarga desde Repositorio]) --> Software{¿Software Compatible?}
+    
+    %% Verificación Software
+    Software -- "Google Sheets" --> ErrorSoft["❌ No permitido (Exclusión)"]
+    Software -- "Excel / LibreOffice" --> Rename["Renombrar archivo: <br/>Sustituir 'nombre' por el real"]
+    
+    Rename --> Open[Abrir y Habilitar Edición]
+    
+    %% Proceso de Baremación
+    Open -->  Sec1["<b>Paso 1: Datos Generales</b><br/>Rellenar Sección 1 de Hoja 'Baremación Pormenorizada'"]
+    
+    subgraph Declaracion [Paso 2: Declaración de Méritos]
+        direction TB
+        Sec1 -->  Locate["Localizar Apartado (Sec. 2)"]
+        Locate --> InputDoc["Introducir Nº Doc (Sec. 3)"]
+        InputDoc --> InputData["Introducir Datos Cálculo (Sec. 4)"]
+        InputData --> CheckRow{¿Faltan filas?}
+        
+        CheckRow -- "Sí" --> AddRow["<b>Paso 5: Filas Adicionales</b><br/>Ir a hoja 'Filas adicionales'<br/>Copiar y pegar bloque"]
+        AddRow --> InputData
+        CheckRow -- "No" --> NextMerit{¿Más méritos?}
+        NextMerit -- "Sí" --> Locate
+    end
+    
+    NextMerit -- "No" --> BaremoEsp["<b>Paso 3: Baremo Específico</b><br/>(Opcional) Indicar Nº Doc"]
+    
+    BaremoEsp --> Obs["<b>Paso 4: Observaciones</b><br/>(Opcional)"]
+    
+    %% Revisión y Entrega
+    Obs --> Review["<b>Paso 6: Hoja Revisión</b><br/>Comprobar errores"]
+    
+    Review --> Errors{¿Hay errores?}
+    Errors -- "Sí" --> Locate
+    Errors -- "No" --> Save[Guardar y Cerrar]
+    
+    Save --> Upload(["<b>Paso 7: Sede Electrónica</b><br/>Subir archivo a la solicitud"])
+    
+    classDef decision fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef stop fill:#ffebee,stroke:#b71c1c,stroke-width:2px;
+    classDef process fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px;
+    
+    class Software,CheckRow,NextMerit,Errors decision;
+    class ErrorSoft stop;
+    class Sec1,Locate,InputDoc,InputData,BaremoEsp,Obs,Review,Save process;
+```

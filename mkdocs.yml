@@ -53,15 +53,17 @@ plugins:
       type: datetime # Muestra fecha y hora completas
       enable_creation_date: true  # También muestra la fecha de creación
 # - pdf-export:     # Permite exportar páginas a PDF (requiere pip install mkdocs-pdf-export-plugin)
-  - mermaid2:      # Soporte para diagramas Mermaid (requiere pip install mkdocs-mermaid2-plugin)
-      minify_html: true
   - glightbox:      # Para imágenes con efecto lightbox (requiere pip install mkdocs-glightbox)
 
 # Extensiones de Markdown (Lo que hace que el contenido se vea pro)
 markdown_extensions:
   - admonition          # Cuadros de aviso (Note, Warning, etc.)
   - pymdownx.details    # Secciones colapsables
-  - pymdownx.superfences # Bloques de código avanzados
+  - pymdownx.superfences: # Bloques de código avanzados
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:    # Pestañas de contenido
       alternate_style: true 
   - attr_list           # Permite añadir atributos CSS a elementos
