@@ -1,4 +1,4 @@
-# Manual de uso - Plantilla de Baremación
+# Plantilla de Baremación - Manual de uso
 
 ## Introducción
 

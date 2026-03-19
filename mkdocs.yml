@@ -69,7 +69,7 @@ plugins:
 markdown_extensions:
   - admonition          # Cuadros de aviso (Note, Warning, etc.)
   - pymdownx.details    # Secciones colapsables
-    - pymdownx.superfences: # Bloques de código avanzados
+  - pymdownx.superfences: # Bloques de código avanzados
       custom_fences:
         - name: mermaid
           class: mermaid

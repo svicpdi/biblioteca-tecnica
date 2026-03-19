@@ -1,4 +1,4 @@
-# FAQ - Plantilla de Baremación
+# Plantilla de Baremación - FAQ
 
 <div class="faq-section" markdown="1">
 
