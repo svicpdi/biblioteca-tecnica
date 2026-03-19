@@ -1,6 +1,14 @@
-Plantilla de Integración - Manual de uso
+# Plantilla de Integración - Manual de uso
 
 ## **Consideraciones iniciales**
+
+La Plantilla de Baremación es una herramienta digital, diseñada en formato de hoja de cálculo, que aplica con precisión lo establecido en el Reglamento de Contratación de Personal Docente e Investigador Laboral de la Universidad de La Laguna siguiendo los criterios de fiabilidad, replicabilidad y seguridad correspondientes.
+
+La misma permite realizar la declaración de méritos y obtener, de manera automatizada, las puntuaciones correspondientes la declaración de méritos efectuada.
+
+Además, la utilización de este formato permite establecer un sistema estandarizado de baremación optimiza el proceso para todos los agentes implicados mejorando la transparencia del proceso.
+
+A lo largo de este manual se irá desarrollando una guía, que contiene, paso a paso, todas las instrucciones necesarias para conocer y utilizar correctamente la herramienta. Para ello, se apoyará el texto con la incorporación de imágenes que faciliten la comprensión de las explicaciones.
 
 Con la modificación del formato de currículum detallado realizada en los concursos de plazas de PDI laboral se optimizó el proceso de baremación. En este sentido se produjeron los siguientes cambios:
 

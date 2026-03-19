@@ -1,4 +1,4 @@
-# FAQ - Plantilla de Integración
+# Plantilla de Integración - FAQ
 
 <div class="faq-section" markdown="1">
 
@@ -20,9 +20,9 @@ Como cualquier archivo de trabajo de Excel, deberemos ir guardando el progreso e
 
 ### **¿Se puede trabajar online en las distintas herramientas?**
 
-Por norma general, podrá podrá hacer uso de Microsoft online de cara a introducir méritos pero es posible que visualice errores debido a las limitaciones de este entorno de trabajo por parte de la propia Microsoft. No obstante, estos errores deberían subsanarse automáticamente en una versión de escritorio compatible.
+Por norma general, podrá podrá hacer uso de Microsoft online de cara a introducir méritos pero es posible que visualice errores debido a las limitaciones de este entorno de trabajo por parte de  Microsoft. No obstante, estos errores deberían subsanarse automáticamente en una versión de escritorio compatible.
 
-Sin embargo, habrá ciertas funcionalidades que no estarán disponibles en la versión online así como tampoco podrá realizarse el proceso de integración.
+Por otro lado, también habrá ciertas funcionalidades que no estarán disponibles en la versión online, entre ellas, los códigos de integración y exportación.
 
 ### **¿Algunas puntuaciones se cargan a partir de alguna base de datos?**
 
