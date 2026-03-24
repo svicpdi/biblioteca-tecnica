@@ -30,8 +30,7 @@ Para garantizar el correcto funcionamiento de la Plantilla de Baremación y evit
 !!! info "Aclaración de compatiblidad"
     Considere que la antigüedad del software de ofimática puede provocar la imposibilidad de acceder a algunas de las funcionalidades más avanzadas de la herramienta así como provocar errores. No obstante, esto no supone un motivo de exclusión del concurso ya que dichos errores serán subsanados en fases posteriores del concurso, siempre que usted resulte admitido definitivo.
 
-    !!! success "Versiones 100% compatibles"
-        **Utilice Office 365** para garantizar el 100% de compatibilidad.
+    !!! success "Utilice Office 365 para garantizar el 100% de compatibilidad."
 
 !!! warning "Declaración responsable"
     Recuerde que, en el fomulario de solicitud de concurrencia del procedimiento de Sede Electrónica, usted acepta en la Declaración Responsable:
@@ -190,7 +189,7 @@ Aquí se mostrarán las puntuaciones resultantes de su declaración en tres nive
 
 Una vez entendido cómo interactuar con la herramienta y cuál es la estructura de la hoja de *Baremación Pormenorizada* deberá cumplimentar los datos de la sección 1 de esta hoja:
 
-| | |
+| Campo a cumplimentar | Dato a introducir |
 | --- | --- |
 | **Candidatura** | *Su nombre y apellidos (Ej: Jesús María López)* |
 | **Código de la plaza** | Encontrará los datos en el Anexo I de la convocatoria a la que vaya concurrir, que estará disponible en el Boletín Oficial correspondiente, el portal de convocatorias de la ULL y en el Tablón de Anuncios electrónico de la ULL |

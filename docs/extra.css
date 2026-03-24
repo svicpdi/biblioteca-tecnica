@@ -73,3 +73,9 @@ body {
 .md-nav {
     text-align: left;
 }
+
+/* Clase personalizada para imágenes dentro de tablas */
+.tabla-img-ajustada {
+    width: 30%;
+    min-width: 150px; /* Evita que la imagen sea demasiado pequeña en móviles */
+}
