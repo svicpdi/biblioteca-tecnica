@@ -134,7 +134,6 @@ Esta hoja contiene un resumen de aquellas candidaturas que pueden formar parte d
 
 ![Hoja de Suplentes](../../assets/images/image37.png)
 
-
 ### Plantilla de Integración - Prorrateos
 
 Esta hoja contiene una serie de calculadoras que le ayudarán a la hora de realizar distintos prorrateos necesarios en la baremación.
@@ -372,6 +371,7 @@ Por otro lado, si la candidatura supera la puntuación mínima para acceder a en
 Esto excluirá a la candidatura de la provisión de la plaza debido a que incumple la obligación de establecerse una puntuación de entrevista según el Reglamento. Esta exclusión será automática y se solventará añadiendo puntuación de entrevista en la sección correspondiente del Baremo Específico de la Baremación Pormenorizada de la candidatura.
 
 2. En el caso de que la candidatura haya superado la puntuación mínima para acceso a entrevista pero, tras computar la puntuación de la entrevista esta sea inferior a la puntuación mínima exigida para acceder a contratación, se excluirá a la candidatura mostrando la puntuación de entrevista, indicando exclusión y “No se alcanza el mínimo para contratación” en el campo “Observaciones”:
+
 ![exclusión por no alcanzar el mínimo para contratación](../../assets/images/image50.png)
 
 3. En el caso de que la puntuación de entrevista sí supere o iguale la puntuación mínima exigida para acceder a contratación, la candidatura podrá formar parte de la provisión de la plaza como candidatura propuesta o posible suplente:
@@ -400,7 +400,7 @@ Al final del Baremo Específico encontrará un apartado le permitirá introducir
 
 Por otro lado, la herramienta permite hacer uso de la función “Comentarios” de Excel para esclarecer situaciones como el motivo de no valoración de un mérito. Para hacer uso de estas deberá seguir las indicaciones del [Soporte de Microsoft](https://support.microsoft.com/es-es/office/insertar-comentarios-y-notas-en-excel-bdcc9f5d-38e2-45b4-9a92-0b2b5c7bf6f8#:~:text=fines%20de%20anotaci%C3%B3n-,Haga%20clic%20derecho%20en%20la%20celda%20y%2C%20a%20continuaci%C3%B3n%2C%20haga,clic%20fuera%20de%20la%20celda.) (ver desplegable “*Insertar comentarios encadenados para mantener conversaciones”*).
 
-Asimismo, es posible que se encuentre con comentarios efectuados por la candidatura en su declaración de méritos. Para ello revise el desplegable del Soporte de Microsoft “*Revisar todos los comentarios de un libro*”. La recomendación es dar respuesta a estos siguiendo el hilo de la conversación puesto que este hecho ayudará a evitar posibles reclamaciones agilizando así la cobertura de la plaza.
+Asimismo, es posible que se encuentre con comentarios efectuados por la candidatura en su declaración de méritos. Para ello, revise el apartado del hijo del Soporte de Microsoft “*Revisar todos los comentarios de un libro*”. La recomendación es dar respuesta a estos siguiendo el hilo de la conversación puesto que este hecho ayudará a evitar posibles reclamaciones agilizando así la cobertura de la plaza.
 
 ## Paso 8 – Informe de Acta de Comisión
 
@@ -412,6 +412,8 @@ Para ello, en la hoja **Acta** deberá cumplimentar cuatro secciones:
 2. **Datos de asistentes**  
 3. **Lista de suplentes**  
 4. **Observaciones**
+
+![secciones del Acta](../../assets/images/image55.png)
 
 Como hasta ahora, utilice la leyenda de colores para identificar las celdas con las que debe interactuar. La única excepción, es la relativa al campo de “Cargo” en la sección 2, en la cual deberá seleccionar una opción del desplegable.
 
@@ -441,9 +443,9 @@ Y como anexos de esta;
 
 La exportación de la información se ha pensado para ser efectuada mediante código con objeto de optimizar su tiempo. No obstante, para que funcione, será necesario que haya configurado correctamente el archivo (ver [Primera apertura de las herramientas de baremación](#primera-apertura-de-las-herramientas-de-baremación)).
 
-Para efectuar la exportación deberá dirigirse a la hoja **Resumen** y hacer clic en el icono del paso 3 ![icono de exportación global](../../assets/images/image56.png). Esto ejecutará una ventana de selección que le permitirá escoger una carpeta de su sistema de archivos para exportar la documentación de la plaza.
+Para efectuar la exportación deberá dirigirse a la hoja **Resumen** y hacer clic en el icono del paso 3 ![icono de exportación global](../../assets/images/image56.png){ width=5% }. Esto ejecutará una ventana de selección que le permitirá escoger una carpeta de su sistema de archivos para exportar la documentación de la plaza.
 
-Además, encontrará este otro icono ![icono de exportación individual](../../assets/images/image57.png), en las hojas de "Resumen" y "Acta", que le permitirán exportar estas hojas de manera individualizada.
+Además, encontrará este otro icono ![icono de exportación individual](../../assets/images/image57.png){ width=5% }, en las hojas de "Resumen" y "Acta", que le permitirán exportar estas hojas de manera individualizada.
 
 En caso de no poder exportar el PDF mediante la ejecución de macros, siempre podrá hacerlo de manera manual siguiendo las indicaciones de [Microsoft](https://support.microsoft.com/es-es/office/imprimir-una-hoja-de-c%C3%A1lculo-o-un-libro-f4ad7962-b1d5-4eb9-a24f-0907f36c4b94).
 
@@ -453,21 +455,61 @@ No obstante lo anterior, tal y como se mencionaba en el [Paso 3 - Revisión y co
 
 Estos errores serán advertidos en la tabla resumen de la hoja **Resumen** y deberán ser subsanados para que la documentación pueda ser aceptada como válida por parte del Negociado.
 
-# **Control de calidad y soporte**
+## Control de calidad y soporte
 
-Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de alguna de las herramientas de baremación, por favor, póngase en contacto con el Soporte mediante el [formulario de asistencia](https://sites.google.com/ull.edu.es/baremacion-comisiones/p%C3%A1gina-principal#h.q7y6rntl1ov7).
+Si experimenta algún tipo de incidencia técnica relacionada con la ejecución o uso de la herramienta de Plantilla de Integración, por favor, revise el [repositorio de Baremación de Plazas de PDI Laboral del Centro de Ayuda](https://sites.google.com/ull.edu.es/soporte-vicpdi/repositorios/baremacion-pdil), en él encontrará todos los canales de comunicación.
 
-# **Errores más frecuentes**
+## Flujo del proceso
 
-A continuación se muestra una tabla con los errores más frecuentes y cómo solucionarlos:
-
-| Error | Descripción | Solución |
-| :---: | :---: | :---: |
-| **\!** | Visible en la tabla de ponderaciones, nos indica que no se ha seleccionado una figura de profesorado para la baremación. | Revise que en la hoja "Datos" ha cumplimentado correctamente el campo "Figura de profesorado". |
-| **\#Error 1** | No se reconocen los datos de "figura de profesorado". | Revise que se ha indicado, en la configuración de la plaza, la categoría de profesorado. |
-| **\#N/A Afinidad** | No hay disponibles datos de afinidad para el mérito que se pretende evaluar. | Introduzca en la sección 5.2, el nivel de afinidad a aplicar para el mérito a evaluar. |
-| **\#N/A Nº Doc.** | No hay disponibles datos del número de documento de la relación de méritos de la persona candidata por lo que no se realiza el cálculo. | Introduzca en la sección 3, y en la celda correspondiente, el número de documento según la relación de méritos aportada por la candidatura. Ojo, recuerde que no debe alterarse la declaración de méritos de la candidatura. |
-| **\#N/A** | La fórmula utilizada para calcular la puntuación del mérito no dispone de un valor de la sección 4 necesario para el cálculo. | Revise que en el rango de celdas de la sección 4 (Datos para el cálculo de la puntuación) se han cumplimentado todos los datos necesarios. |
-| **Ø** | Este símbolo no es un error. Se utiliza en la hoja "Resumen de candidaturas" en el campo de "Entrevista" para señalar que la persona no cumple el mínimo para acceder a esta fase de la baremación según los criterios del Baremo Específico aprobados para el Departamento introducido en los "Datos de la plaza". |  |
-| **\#NOMBRE\!** | Este error se produce debido a la utilización de una versión antigua de Excel que resulta en una incompatibilidad de parte del código de la herramienta. | En el caso de Windows, se ha detectado que la aparición de este error no reviste gravedad puesto que la ejecución de la herramienta de baremación en un entorno compatible subsana tal incidencia, que podría caracterizarse de índole visual. En el caso de Macintosh, se ha detectado que el normal uso de la herramienta en una versión incompatible provoca una alteración del código que incide sobre el funcionamiento esperado de los cálculos de la puntuación. Ante esta situación es precisa la intervención del \*Soporte Técnico para restaurar el código inicial\*. |
-| **\#REF** | Este error indica que el valor de referencia de un cálculo no puede ser encontrado normalmente provocado por la acción de arrastrar o mover celdas o copiar/cortar información | En este caso se produce una eliminación del código original que ha de ser \*subsanado por parte del Soporte Técnico para restaurar el código inicial\*. |
+```mermaid
+graph TD
+    %% Inicio
+    Start([Inicio:<br/>Recepción de expedientes]) --> Config["Configurar datos de la plaza<br/>(Hoja Resumen)"]
+    
+    %% Integración
+    Config --> PrepFiles["Preparar archivos Excel<br/>en carpeta única"]
+    PrepFiles --> Integrate["<b>Paso 2: Integración</b><br/>Ejecutar macro de Integración"]
+    
+    %% Revisión Inicial
+    Integrate --> CheckErrors{"¿Errores en<br/>datos identificativos?"}
+    CheckErrors -- "Sí" --> FixErrors["Subsanar en Sección 1<br/>de cada candidatura"]
+    FixErrors --> CheckErrors
+    CheckErrors -- "No" --> ReviewMerits
+    
+    %% Baremación
+    subgraph Baremacion [Revisión y Valoración]
+        ReviewMerits["Revisar declaración<br/>(Cotejar con PDFs del expediente (documentos justificativos))"]
+        ReviewMerits --> Afinidad["Asignar Afinidad/Valoración<br/>(Sección 5.2)"]
+        Afinidad --> BaremoEsp["Baremo Específico<br/>(Puntuación manual)"]
+    end
+    
+    %% Entrevista
+    BaremoEsp --> MinInterview{"¿Alcanza mínimo<br/>para entrevista?"}
+    MinInterview -- "No" --> Exclude1[Exclusión automática]
+    MinInterview -- "Sí" --> InterviewHeld{"¿Se realiza<br/>entrevista?"}
+    
+    InterviewHeld -- "No/No concurre" --> Exclude2["Exclusión: No concurre<br/>o Sin puntuación"]
+    InterviewHeld -- "Sí" --> ScoreInterview[Introducir puntuación]
+    
+    ScoreInterview --> MinContract{"¿Alcanza mínimo<br/> para contratación?"}
+    MinContract -- "No" --> Exclude3[Exclusión: No supera mínimo]
+    MinContract -- "Sí" --> Proposal[Candidatura propuesta / Suplente]
+    
+    %% Cierre
+    Exclude1 --> Acta
+    Exclude2 --> Acta
+    Exclude3 --> Acta
+    Proposal --> Acta
+    
+    Acta["<b>Paso 8: Acta</b><br/>Cumplimentar datos de la sesión y Suplentes"]
+    Acta --> Export["<b>Paso 9: Exportación</b><br/>Generar PDFs (Acta + Resumen + Baremaciones Pormenorizadas)"]
+    Export --> End([Fin del proceso])
+    
+    classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    classDef stop fill:#ffebee,stroke:#b71c1c,stroke-width:2px;
+    
+    class Config,PrepFiles,Integrate,FixErrors,ReviewMerits,Afinidad,BaremoEsp,ScoreInterview,Acta,Export process;
+    class CheckErrors,MinInterview,InterviewHeld,MinContract decision;
+    class Exclude1,Exclude2,Exclude3 stop;
+```

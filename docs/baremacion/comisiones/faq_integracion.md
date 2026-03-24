@@ -9,6 +9,7 @@ Las preguntas se han agrupado según las siguientes categorías:
 1. Relacionadas con el funcionamiento de la herramienta.  
 2. Relacionadas con incidencias técnicas.  
 3. Relacionadas con la baremación.
+4. Errores conocidos.
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
 
@@ -94,3 +95,72 @@ Recuerde que cuando usted cumplimenta el currículum detallado  aún no se han a
 ### **En el bloque 3º, apartado 1, la referencia a “autores”, ¿a qué se refiere: al número de autores o la posición en el paper?**
 
 En el Reglamento de Contratación se hace referencia al número de autores (Na).
+
+## **ERRORES CONOCIDOS**
+
+A continuación se muestra un listado con los errores más frecuentes y cómo solucionarlos:
+
+#### Error de figura de profesorado (!)
+
+!!! failure "Error: Figura no seleccionada"
+    El sistema indica que no se ha seleccionado una figura de profesorado válida para realizar la baremación en la tabla de ponderaciones.
+
+    !!! success "Solución: Revisión de Hoja 'Datos'"
+        Acceda a la hoja "Datos" y asegúrese de haber cumplimentado correctamente el campo "Figura de profesorado".
+
+#### Error de categoría (#Error 1)
+
+!!! failure "Error: Datos de figura no reconocidos"
+    El sistema no logra reconocer los datos relativos a la figura de profesorado introducida.
+
+    !!! success "Solución: Configuración de la plaza"
+        Revise que se haya indicado correctamente la categoría de profesorado en la configuración inicial de la plaza.
+
+#### Error de afinidad (#N/A Afinidad)
+
+!!! failure "Error: Datos de afinidad ausentes"
+    No existen datos de afinidad disponibles para el mérito que se intenta evaluar en este momento.
+
+    !!! success "Solución: Introducción en sección 5.2"
+        Introduzca manualmente el nivel de afinidad correspondiente al mérito evaluado en la sección 5.2.
+
+#### Error de declaración (#N/A Nº Doc.)
+
+!!! failure "Error: Falta Número de Documento"
+    No se puede realizar el cálculo de la baremación porque falta el número de documento de la relación de méritos de la candidatura.
+
+    !!! success "Solución: Revisión de sección 3"
+        Introduzca el número de documento en la celda correspondiente de la Sección 3. **Nota:** Recuerde que no debe alterar la declaración original de méritos de la candidatura.
+
+#### Error de datos faltantes (#N/A)
+
+!!! failure "Error: Parámetros Incompletos"
+    La fórmula de puntuación ha fallado debido a que falta un valor esencial en los datos de entrada de la sección 4.
+
+    !!! success "Solución: Revisión de campos sección 4"
+        Verifique que todas las celdas en el rango de la Sección 4 (Datos para el cálculo) tengan la información necesaria para procesar el mérito.
+
+#### Error de compatibilidad (#NOMBRE!)
+
+!!! failure "Error: Incompatibilidad de Software"
+    Se está utilizando una versión de Excel antigua o incapaz de leer parte del código de la herramienta.
+
+    !!! success "Solución según Sistema Operativo"
+      * **Windows:** El error suele ser visual. Ejecutar la herramienta en un entorno compatible subsana la incidencia.
+      * **Macintosh:** El error es crítico y altera los cálculos. Requiere la intervención del **Soporte Técnico** para restaurar el código inicial.
+
+#### Error de referencia (#REF)
+
+!!! failure "Error: Código Dañado o Celda Desplazada"
+    Se ha roto la integridad de las fórmulas por haber arrastrado, movido, copiado o cortado celdas manualmente, eliminando el código original.
+
+    !!! success "Solución: Restauración Necesaria"
+        Debe contactar obligatoriamente con el **Soporte Técnico** para restaurar el código y las funciones originales de la herramienta.
+
+#### Estado de exclusión (Ø) (NO es error)
+
+El símbolo Ø no representa un error técnico, sino un estado administrativo en la hoja "Resumen de candidaturas" (campo "Entrevista").
+
+Indica que la persona candidata no ha alcanzado la puntuación mínima exigida por el Baremo Específico del Departamento para acceder a esta fase, según los criterios introducidos en los "Datos de la plaza".
+
+</div>

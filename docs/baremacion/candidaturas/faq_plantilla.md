@@ -6,9 +6,10 @@ Este apartado pretende dar respuesta a las posibles preguntas que cualquier pers
 
 Las preguntas se han agrupado según las siguientes categorías:
 
-1. Relacionadas con el funcionamiento de la herramienta.  
-2. Relacionadas con incidencias técnicas.  
-3. Relacionadas con la baremación.
+1. [Relacionadas con el funcionamiento de la herramienta](../candidaturas/faq_plantilla.md#relacionadas-con-el-funcionamiento-de-la-herramienta).
+2. [Relacionadas con incidencias técnicas](../candidaturas/faq_plantilla.md#relacionadas-con-incidencias-tecnicas).
+3. [Relacionadas con la baremación](../candidaturas/faq_plantilla.md#relacionadas-con-la-baremacion).
+4. [Errores conocidos](../candidaturas/faq_plantilla.md#errores-conocidos).
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
 
@@ -115,25 +116,25 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
 !!! Info "Consejo"
     Siempre revise la copia generada no solo para adaptar la sección 1 sino también para comprobar si en otro perfil de plaza tuvieran cabida nuevos méritos de su currículum.
 
-## **Errores conocidos**
+## **ERRORES CONOCIDOS**
 
-### **Error de declaración (#N/A Nº Doc.)**
+#### **Error de declaración (#N/A Nº Doc.)**
 
 !!! failure "Error: Falta Número de Documento"
     No se puede realizar el cálculo de la baremación porque la casilla del número de documento en la relación de méritos está vacía.
 
-     !!! success "Solución: Revisión de sección 3"
+    !!! success "Solución: Revisión de sección 3"
         Introduzca el número de documento correspondiente en la Sec ción 3, columna F. El sistema reactivará el cálculo automáticamente.
 
-### **Error de datos faltantes (#N/A)**
+#### **Error de datos faltantes (#N/A)**
 
 !!! failure "Error: Parámetros Incompletos"
     La fórmula de puntuación ha fallado. Falta un valor esencial en los datos de entrada de la sección 4.
-
-     !!! success "Solución: Revisión de campos sección 4"
+    
+    !!! success "Solución: Revisión de campos sección 4"
         Verifique que todas las celdas en el rango de las columnas I a T (Sección 4) tengan los datos necesarios para el cálculo de méritos.
 
-### **Error de compatibilidad (#NOMBRE!)**
+#### **Error de compatibilidad (#NOMBRE!)**
 
 !!! failure "Error: Incompatibilidad de Software"
     Se está utilizando una versión de Excel antigua o no incapaz de leer parte del código de la herramienta
@@ -141,7 +142,7 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
     !!! success "Solución: Resolución por Plataforma"
         Este error se soluciona ejecutando la herramienta en un entorno compatible.
 
-### **Error de referencia (#REF)**
+#### **Error de referencia (#REF)**
 
 !!! failure "Error: Código Dañado o Celda Desplazada"
     Se ha roto la integridad de las fórmulas por haber arrastrado, cortado o movido celdas manualmente.
@@ -149,7 +150,7 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
     !!! success "Solución: Restauración Necesaria"
         No intente corregirlo manualmente. Debe contactar con el Soporte Técnico para que restauren el código original y las referencias de la herramienta.
 
-### **Estado de exclusión (Ø) (*NO es error*)**
+#### **Estado de exclusión (Ø) (*NO es error*)**
 
 El símbolo Ø no representa un error técnico, sino un estado administrativo en la hoja "Resumen de candidaturas".
 

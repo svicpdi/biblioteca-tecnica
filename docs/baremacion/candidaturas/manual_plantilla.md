@@ -279,7 +279,6 @@ En este Bloque podrá incorporar los méritos que considera que han de ser valor
 !!! info "Aclaración sobre el Baremo Específico"
     Este apartado puede ser cumplimentado por usted siempre que lo estime oportuno pero, en última instancia, será la Comisión la que decida qué méritos pueden ser contenidos aquí. *Ver el FAQ para más información*.
 
-
 ## Paso 4 de la baremación: Observaciones
 
 Al final del Bloque de Baremo Específico encontrará un campo de observaciones generales que le permitirá introducir observaciones generales acerca de la baremación.  
