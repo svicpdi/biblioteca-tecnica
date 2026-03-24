@@ -13,6 +13,8 @@ Las preguntas se han agrupado según las siguientes categorías:
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
 
+---
+
 ## **RELACIONADAS CON EL FUNCIONAMIENTO DE LA HERRAMIENTA**
 
 ### **¿Cómo guardar el trabajo realizado?**
@@ -51,7 +53,7 @@ En la hoja “Prorrateos” encontrará diversas calculadoras que le ayudarán a
 
 Deberá indicar “Bolsa de sustitución”.
 
-9. **¿Existe alguna manera de trabajar de manera colaborativa?**
+**¿Existe alguna manera de trabajar de manera colaborativa?**
 
 Sí, para ello, revise el visite el siguiente documento.
 
@@ -74,6 +76,8 @@ La herramienta utiliza el caracter “ , ” como separador decimal. En ocasione
 
 ![][image20]
 
+---
+
 ## **RELACIONADAS CON LA BAREMACIÓN**
 
 ### **¿Se puede utilizar la nota media en base 4 que figura en los certificados académicos para obtener la puntuación de los apartados 1.1, 2.1 y 2.2 del Bloque 1º?**
@@ -84,17 +88,19 @@ No, el Reglamento de Contratación no contempla esta posibilidad y pese a que se
 
 Por las características de ciertos méritos y, cumpliendo lo establecido en el Reglamento de Contratación, hay ciertos apartados en los cuales no corresponde aplicar afinidad. En estos, deberá utilizar la valoración “Procede / No procede”.
 
-### **  Para la baremación del apartado 1.1 del Bloque 1º (Formación académica) al hacer el cálculo de la nota media a partir del número de asignaturas y de notas cualitativas (MH,SB,NT,AP) no nos coincide con la nota media que se aporta en los certificados. ¿Qué valor introducimos en el excel, el resultado de nuestro cálculo o el aportado en los certificados?**
+### **Para la baremación del apartado 1.1 del Bloque 1º (Formación académica) al hacer el cálculo de la nota media a partir del número de asignaturas y de notas cualitativas (MH,SB,NT,AP) no nos coincide con la nota media que se aporta en los certificados. ¿Qué valor introducimos en el excel, el resultado de nuestro cálculo o el aportado en los certificados?**
 
 Las notas en base 4 que figuran en los certificados son obtenidas por un método de cálculo diferente al establecido en el Reglamento de Contratación. En este sentido, si en el certificado no figura la nota media en base 10 (método 1), deberá obtenerse la puntuación por medio de las notas cualitativas de las asignaturas y el número total de estas (método 2). Note que solo deberá rellenar las celdas que correspondan al método que utilice (las que queden dentro de los márgenes del encabezado del método). Esto significa que si va a utilizar el método 2 no debe introducir nota media en el método 1\.
 
 ### **¿Qué pasa si ya he obtenido el máximo posible del apartado? ¿Debo seguir introduciendo méritos?**
 
-Recuerde que cuando usted cumplimenta el currículum detallado  aún no se han aplicado niveles de afinidad por parte de la Comisión por lo que es posible que la puntuación cambie tras esta acción. No obstante, la recomendación es introducir todos los méritos disponibles en cada apartado puesto que, en caso de saturación y siempre que la Comisión lo estime oportuno y el Baremo Específico correspondiente lo permita, ese excedente podrá ser computado en el Bloque 8º- Baremo Específico. 
+Recuerde que cuando usted cumplimenta el currículum detallado  aún no se han aplicado niveles de afinidad por parte de la Comisión por lo que es posible que la puntuación cambie tras esta acción. No obstante, la recomendación es introducir todos los méritos disponibles en cada apartado puesto que, en caso de saturación y siempre que la Comisión lo estime oportuno y el Baremo Específico correspondiente lo permita, ese excedente podrá ser computado en el Bloque 8º- Baremo Específico.
 
 ### **En el bloque 3º, apartado 1, la referencia a “autores”, ¿a qué se refiere: al número de autores o la posición en el paper?**
 
 En el Reglamento de Contratación se hace referencia al número de autores (Na).
+
+---
 
 ## **ERRORES CONOCIDOS**
 
@@ -164,3 +170,4 @@ El símbolo Ø no representa un error técnico, sino un estado administrativo en
 Indica que la persona candidata no ha alcanzado la puntuación mínima exigida por el Baremo Específico del Departamento para acceder a esta fase, según los criterios introducidos en los "Datos de la plaza".
 
 </div>
+---

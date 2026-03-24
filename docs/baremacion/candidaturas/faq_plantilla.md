@@ -13,6 +13,8 @@ Las preguntas se han agrupado según las siguientes categorías:
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
 
+---
+
 ## **RELACIONADAS CON EL FUNCIONAMIENTO DE LA HERRAMIENTA**
 
 ### **¿Cómo guardar el trabajo realizado?**
@@ -77,6 +79,8 @@ En el caso de que presente dificultades, compruebe que la configuración de su E
 
 ![][image19]
 
+---
+
 ## **RELACIONADAS CON LA BAREMACIÓN**
 
 ### **¿Se puede utilizar la nota media en base 4 que figura en los certificados académicos para obtener la puntuación de los apartados 1.1, 2.1 y 2.2 del Bloque 1º?**
@@ -116,6 +120,8 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
 !!! Info "Consejo"
     Siempre revise la copia generada no solo para adaptar la sección 1 sino también para comprobar si en otro perfil de plaza tuvieran cabida nuevos méritos de su currículum.
 
+---
+
 ## **ERRORES CONOCIDOS**
 
 #### **Error de declaración (#N/A Nº Doc.)**
@@ -130,7 +136,7 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
 
 !!! failure "Error: Parámetros Incompletos"
     La fórmula de puntuación ha fallado. Falta un valor esencial en los datos de entrada de la sección 4.
-    
+
     !!! success "Solución: Revisión de campos sección 4"
         Verifique que todas las celdas en el rango de las columnas I a T (Sección 4) tengan los datos necesarios para el cálculo de méritos.
 
@@ -157,3 +163,4 @@ El símbolo Ø no representa un error técnico, sino un estado administrativo en
 Indica que la candidatura no ha alcanzado la puntuación mínima exigida por el Baremo Específico del Departamento para pasar a la siguiente fase.
 
 </div>
+---

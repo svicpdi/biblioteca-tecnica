@@ -1,4 +1,4 @@
-# **Guía de Soporte: Normalización y Baremación de Plazas de PDI**
+# **Aclaratorio: Normalización y Baremación de Plazas de PDI**
 
 Esta documentación detalla los criterios de cálculo, la lógica de normalización y la estructura de integración de datos en los concursos de acceso a plazas de Personal Docente e Investigador (PDI) laboral, asegurando la trazabilidad de todo el proceso.
 
@@ -129,3 +129,5 @@ graph TD
     
     style N stroke:#16a34a
 ```
+
+---
