@@ -1,10 +1,12 @@
-name: Publicar Documentación
+name: Publicar Documentación con Versiones
 
 on:
   push:
     branches:
       - main
       - master
+  release:
+    types: [published] # Se activa cuando creas una Release en GitHub
 
 permissions:
   contents: write
@@ -16,7 +18,7 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # IMPORTANTE: Necesario para que mike vea el historial y la rama gh-pages
+          fetch-depth: 0 # Vital para que mike vea las otras versiones
 
       - name: Configurar Python
         uses: actions/setup-python@v4
@@ -32,8 +34,18 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Desplegar con mike
+      - name: Desplegar versión (Release o Main)
         run: |
-          # Despliega una versión llamada 'latest' y la establece como predeterminada
-          mike deploy --push --update-aliases latest
+          # Si el evento es una Release, usamos el nombre del tag (ej: v1.0)
+          # Si es un push normal a main, actualizamos 'latest'
+          if [ "${{ github.event_name }}" = "release" ]; then
+            VERSION_NAME="${{ github.event.release.tag_name }}"
+            echo "Desplegando versión oficial: $VERSION_NAME"
+            mike deploy --push --update-aliases "$VERSION_NAME" latest
+          else
+            echo "Actualizando versión de desarrollo (latest)"
+            mike deploy --push --update-aliases latest
+          fi
+          
+          # Aseguramos que 'latest' sea siempre el defecto
           mike set-default --push latest

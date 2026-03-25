@@ -1,0 +1,5 @@
+nav:
+  - Bienvenida:
+      - Inicio: index.md
+      - Historial de cambios: changelog.md
+  - "Baremación de plazas: PDI Laboral": baremacion 
