@@ -53,13 +53,13 @@ Consideremos una candidatura que supera los 30 puntos establecidos para el **apa
 
 Si una candidatura obtiene **51 puntos en la P1**, el sistema individual indica que se deberá normalizar, pero no puede calcular el valor final hasta conocer el resto de las puntuaciones de los admitidos.
 
-![normalización en Plantilla de Baremación](../assets/images/normalizacion1.png)
+![normalización en Plantilla de Baremación](../../assets/images/normalizacion1.png)
 
 ### **Tras la Integración (*Hoja Resumen de la Plantilla de Integración*)**
 
 En el archivo integrado, los efectos pueden variar según la competencia:
 
-![ejemplo de normalización en la hoja resumen](../assets/images/normalizacion2.png)
+![ejemplo de normalización en la hoja resumen](../../assets/images/normalizacion2.png)
 
 * **Caso A (Superación de máximo):** Si otro candidato tiene **52,53 puntos**, ese candidato marcará los 30 puntos máximos. El candidato de 51 puntos recibirá la parte proporcional (29,122).  
 * **Caso B (Sin superación tras afinidad):** Puede ocurrir que en la **P2** (tras aplicar afinidad) nadie supere los 30 puntos. En ese caso, la puntuación P2 no se normaliza y coincide con el valor bruto \+ afinidad.
