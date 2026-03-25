@@ -1,6 +1,20 @@
 :root {
-  --md-primary-fg-color:        #5c068e;
-  --md-accent-fg-color:         #5c068e;
+  /* Definición de colores base */
+  --ull-brand: #5c068e;
+  --ull-brand-light: #ab6bd3; /* Tono lavanda más claro para alto contraste en oscuro */
+
+  /* Variables por defecto (Modo Claro) */
+  --md-primary-fg-color: var(--ull-brand);
+  --md-accent-fg-color: var(--ull-brand);
+  --footer-bg: var(--ull-brand);
+}
+
+/* Sobrescritura automática para Modo Oscuro (Slate) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ull-brand-light);
+  --md-accent-fg-color: var(--ull-brand-light);
+  /* Footer oscuro tintado de morado para no deslumbrar */
+  --footer-bg: #2a153c; 
 }
 
 .faq-section {
@@ -17,7 +31,7 @@
 }
 
 .footer-wrapper {
-  background-color: #5c068e;
+  background-color: var(--footer-bg);
   color: white;
   padding-top: 20px;
 }
@@ -78,4 +92,35 @@ body {
 .tabla-img-ajustada {
     width: 30%;
     min-width: 150px; /* Evita que la imagen sea demasiado pequeña en móviles */
+}
+
+/* --- MEJORAS VISUALES --- */
+
+/* Estilo moderno para Tablas */
+.md-typeset table:not([class]) {
+    border-radius: 8px;
+    overflow: hidden; /* Para que el borde redondeado aplique al encabezado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+}
+
+/* Imágenes con sombra suave y bordes redondeados */
+.md-content__inner img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Barra de desplazamiento personalizada (Chrome/Edge/Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--md-primary-fg-color);
+    border-radius: 4px;
 }
