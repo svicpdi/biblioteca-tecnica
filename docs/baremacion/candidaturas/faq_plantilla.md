@@ -1,4 +1,4 @@
-# FAQ - Plantilla de Baremación
+# Plantilla de Baremación - FAQ
 
 <div class="faq-section" markdown="1">
 
@@ -6,11 +6,14 @@ Este apartado pretende dar respuesta a las posibles preguntas que cualquier pers
 
 Las preguntas se han agrupado según las siguientes categorías:
 
-1. Relacionadas con el funcionamiento de la herramienta.  
-2. Relacionadas con incidencias técnicas.  
-3. Relacionadas con la baremación.
+1. [Relacionadas con el funcionamiento de la herramienta](../candidaturas/faq_plantilla.md#relacionadas-con-el-funcionamiento-de-la-herramienta).
+2. [Relacionadas con incidencias técnicas](../candidaturas/faq_plantilla.md#relacionadas-con-incidencias-tecnicas).
+3. [Relacionadas con la baremación](../candidaturas/faq_plantilla.md#relacionadas-con-la-baremacion).
+4. [Errores conocidos](../candidaturas/faq_plantilla.md#errores-conocidos).
 
 Se trata de un apartado que estará en continuo desarrollo, y se irá ampliando y completando a medida que los propios usuarios vayan planteando nuevas cuestiones.
+
+---
 
 ## **RELACIONADAS CON EL FUNCIONAMIENTO DE LA HERRAMIENTA**
 
@@ -24,13 +27,15 @@ Usted podrá hacer uso de Microsoft online de cara a introducir méritos pero es
 
 ### **¿Qué significa que el número de documento salga en amarillo en la sección 3?**
 
-Es un aviso que le alertará de la utilización de un mismo documento en más de una ocasión en la baremación. Recuerde que el Baremo Marco dictamina que un mérito, por norma general, no puede ser valorado en más de una ocasión. Sin embargo, es posible encontrar un documento que acredite varios méritos diferentes.
+Es un aviso que le alertará de la utilización de un mismo número de documento en más de una ocasión en la declaración de méritos.
 
-### **Hay celdas que piden una contraseña ¿Cuál se debe utilizar?**
+Esto no implica un error por defecto ya que, aunque el Reglamento de Contratación indica que un mérito no puede ser valorado en más de un apartado del Baremo Marco, pueden existir documentos que acrediten más de un mérito, lo cual no sería un error.
 
-Por motivos de seguridad, la herramienta está implementada en un sistema de protección que no necesita la interacción libre del usuario con la totalidad de la herramienta. Esto significa, que para poder realizar la baremación, no es necesario que interactúe con más celdas de las necesarias. Recuerde lo expuesto en el apartado [Consideraciones generales](#heading=h.f3s943hst4o7).
+### **La Plantilla de Baremación pide una contraseña. ¿Cuál se debe utilizar?**
 
-Sin embargo, en el caso de encontrarse con una celda de interacción que no le permita incorporar información deberá ponerse en contacto con el soporte..
+Por motivos de seguridad y garantías, la herramienta está desarrolalda bajo un sistema de protección que no necesita la interacción libre del usuario con la totalidad de la herramienta. Esto significa que para poder realizar la baremación no es necesario que interactúe con más celdas de las necesarias. Recuerde lo expuesto en el apartado [Consideraciones generales](#heading=h.f3s943hst4o7).
+
+Sin embargo, en el caso de encontrarse con una celda de interacción que no le permita incorporar información deberá ponerse en contacto con el soporte.
 
 ### **¿Cómo se puede añadir un comentario u observación a un mérito aportado por la candidatura y valorado en la baremación pormenorizada?**
 
@@ -74,6 +79,8 @@ En el caso de que presente dificultades, compruebe que la configuración de su E
 
 ![][image19]
 
+---
+
 ## **RELACIONADAS CON LA BAREMACIÓN**
 
 ### **¿Se puede utilizar la nota media en base 4 que figura en los certificados académicos para obtener la puntuación de los apartados 1.1, 2.1 y 2.2 del Bloque 1º?**
@@ -113,25 +120,27 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
 !!! Info "Consejo"
     Siempre revise la copia generada no solo para adaptar la sección 1 sino también para comprobar si en otro perfil de plaza tuvieran cabida nuevos méritos de su currículum.
 
-## **Errores conocidos**
+---
 
-### **Error de declaración (#N/A Nº Doc.)**
+## **ERRORES CONOCIDOS**
+
+#### **Error de declaración (#N/A Nº Doc.)**
 
 !!! failure "Error: Falta Número de Documento"
     No se puede realizar el cálculo de la baremación porque la casilla del número de documento en la relación de méritos está vacía.
 
-     !!! success "Solución: Revisión de sección 3"
+    !!! success "Solución: Revisión de sección 3"
         Introduzca el número de documento correspondiente en la Sec ción 3, columna F. El sistema reactivará el cálculo automáticamente.
 
-### **Error de datos faltantes (#N/A)**
+#### **Error de datos faltantes (#N/A)**
 
 !!! failure "Error: Parámetros Incompletos"
     La fórmula de puntuación ha fallado. Falta un valor esencial en los datos de entrada de la sección 4.
 
-     !!! success "Solución: Revisión de campos sección 4"
+    !!! success "Solución: Revisión de campos sección 4"
         Verifique que todas las celdas en el rango de las columnas I a T (Sección 4) tengan los datos necesarios para el cálculo de méritos.
 
-### **Error de compatibilidad (#NOMBRE!)**
+#### **Error de compatibilidad (#NOMBRE!)**
 
 !!! failure "Error: Incompatibilidad de Software"
     Se está utilizando una versión de Excel antigua o no incapaz de leer parte del código de la herramienta
@@ -139,7 +148,7 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
     !!! success "Solución: Resolución por Plataforma"
         Este error se soluciona ejecutando la herramienta en un entorno compatible.
 
-### **Error de referencia (#REF)**
+#### **Error de referencia (#REF)**
 
 !!! failure "Error: Código Dañado o Celda Desplazada"
     Se ha roto la integridad de las fórmulas por haber arrastrado, cortado o movido celdas manualmente.
@@ -147,10 +156,11 @@ Sin embargo, necesitará adaptar, al menos, los datos de la sección 1 en cada u
     !!! success "Solución: Restauración Necesaria"
         No intente corregirlo manualmente. Debe contactar con el Soporte Técnico para que restauren el código original y las referencias de la herramienta.
 
-### **Estado de exclusión (Ø) (*NO es error*)**
+#### **Estado de exclusión (Ø) (*NO es error*)**
 
 El símbolo Ø no representa un error técnico, sino un estado administrativo en la hoja "Resumen de candidaturas".
 
 Indica que la candidatura no ha alcanzado la puntuación mínima exigida por el Baremo Específico del Departamento para pasar a la siguiente fase.
 
 </div>
+---

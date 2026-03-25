@@ -1,0 +1,39 @@
+name: Publicar Documentación
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # IMPORTANTE: Necesario para que mike vea el historial y la rama gh-pages
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+
+      - name: Configurar usuario de Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Desplegar con mike
+        run: |
+          # Despliega una versión llamada 'latest' y la establece como predeterminada
+          mike deploy --push --update-aliases latest
+          mike set-default --push latest

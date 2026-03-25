@@ -2,61 +2,80 @@
 
 Este proyecto contiene la documentación técnica del Soporte del Vicerrectorado de Personal Docente e Investigador (SVICPDI) de la Universidad de La Laguna (ULL).
 
-El sitio está generado con [MkDocs](https://www.mkdocs.org/) y el tema [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+El sitio está generado con [MkDocs](https://www.mkdocs.org/), el tema [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) y gestionado por [mike](https://github.com/jimporter/mike) para el versionado histórico.
 
 ## Características
 
-*   **MkDocs**: Generador de sitios estáticos rápido y sencillo para documentación.
-*   **Material for MkDocs**: Un tema moderno y personalizable.
-*   **Búsqueda integrada**: Funcionalidad de búsqueda en todo el sitio.
-*   **Navegación mejorada**: Menús automáticos, secciones y pestañas.
-*   **Extensiones de Markdown**: Soporte para admonitions, contenido en pestañas, diagramas Mermaid, y más.
-*   **Optimización**: El sitio final está minificado para un mejor rendimiento.
+* **Gestión de Versiones**: Histórico de documentación mediante `mike`.
+* **Búsqueda integrada**: Funcionalidad de búsqueda avanzada en todo el sitio.
+* **Navegación mejorada**: Menús automáticos, secciones y pestañas superiores.
+* **Extensiones Pro**: Soporte para avisos (*admonitions*), diagramas Mermaid y contenido colapsable.
+* **Optimización**: Minificación automática de activos para una carga rápida.
 
 ## Prerrequisitos
 
-*   Python 3.x
-*   Pip (gestor de paquetes de Python)
+* Python 3.x
+* Git instalado
 
 ## Instalación
 
-1.  **Clonar el repositorio:**
+1. **Clonar el repositorio:**
 
     ```bash
-    git clone <URL-del-repositorio>
-    cd tu-proyecto
+    git clone https://github.com/svicpdi/biblioteca-tecnica.git
+    cd biblioteca-tecnica
     ```
 
-2.  **Crear y activar un entorno virtual (recomendado):**
+2. **Entorno virtual y dependencias:**
 
     ```bash
     python -m venv .venv
     source .venv/bin/activate  # En Windows: .venv\Scripts\activate
-    ```
-
-3.  **Instalar las dependencias:**
-
-    ```bash
     pip install -r requirements.txt
     ```
 
-## Uso
+## Desarrollo y Versiones
 
-Para iniciar el servidor de desarrollo local con recarga automática:
+A diferencia de MkDocs estándar, el flujo de este proyecto utiliza **mike** para no sobrescribir las versiones anteriores en la rama de despliegue.
 
-```bash
-mkdocs serve
-```
+### Previsualización local
 
-Abre tu navegador y ve a `http://127.0.0.1:8000/`.
-
-## Despliegue
-
-Para generar el sitio estático en la carpeta `site/`:
+Para ver cómo queda el manual y el selector de versiones en tu ordenador:
 
 ```bash
-mkdocs build
+mike serve
 ```
+
+Luego abre tu navegador en: `http://localhost:8000/`
+
+### Publicar una nueva versión
+
+Para subir cambios a la web de GitHub Pages (rama gh-pages):
+
+**Si es una versión nueva (ej. v2.0):**
+
+```bash
+mike deploy 2.0 latest --update-aliases --push
+```
+
+**Si solo quieres corregir algo en la versión actual (ej. v1.0):**
+
+```bash
+mike deploy 1.0 latest --update-aliases --push
+```
+
+**Para cambiar qué versión se ve por defecto al entrar a la web:**
+
+```bash
+mike set-default latest --push
+```
+
+## Estructura del Proyecto
+
+* `docs/`: Archivos Markdown (.md) originales que componen la documentación.
+* `mkdocs.yml`: Configuración principal del sitio, plugins y extensiones.
+* `extra.css`: Estilos CSS personalizados (identidad corporativa ULL).
+* `overrides/`: Personalizaciones directas del diseño del tema Material.
 
 ## Licencia
 
