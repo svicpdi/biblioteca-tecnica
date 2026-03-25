@@ -13,8 +13,8 @@ Para habilitar las funciones de trabajo en grupo, es requisito utilizar la versi
 | Acción | Descripción | Imagen |
 | :--- | :--- | :---: |
 | **Acuerdo Institucional** | La Universidad de La Laguna cuenta con un acuerdo que facilita Office 365 ProPlus al personal educativo y administrativo. | ![office 365](../../assets/images/image_colaboracion_1.png){ width="25%" } |
-| **Registro** | El usuario debe realizar el registro siguiendo las instrucciones específicas de la ULL (ver más información). | ![instalación 1](../../assets/images/image_colaboracion_3.png){ width="25%" } |
-| **Instalación** | Puede seguir las instrucciones de Microsoft para realizar la instalación. | ![instalación 2](../../assets/images/image_colaboracion_2.png){ width="25%" } |
+| **Registro** | El usuario debe realizar el registro siguiendo las instrucciones específicas de la ULL ([ver más información](https://www.ull.es/servicios/stic/2022/09/08/microsoft-office-365-proplus/)). | ![instalación 1](../../assets/images/image_colaboracion_3.png){ width="25%" } |
+| **Instalación** | Puede seguir [las instrucciones de Microsoft para realizar la instalación](https://support.microsoft.com/es-es/office/descargar-instalar-o-reinstalar-microsoft-365-u-office-2024-en-un-equipo-pc-o-mac-4414eaaf-0478-48be-9c42-23adc4716658). | ![instalación 2](../../assets/images/image_colaboracion_2.png){ width="25%" } |
 
 ---
 
