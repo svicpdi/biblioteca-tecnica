@@ -17,6 +17,68 @@
   --footer-bg: #2a153c; 
 }
 
+/* --- MEJORA DEL LOGO EN EL HEADER --- */
+/* Usamos el selector completo del tema para asegurar que nuestros cambios ganen */
+.md-header__button.md-logo {
+    display: flex !important;
+    align-items: center !important; /* Centrado vertical del logo */
+    justify-content: flex-start !important; /* Alineación total a la izquierda */
+    padding-left: 0 !important; /* Elimina el espacio sobrante al inicio */
+    margin-right: 2.5rem !important; /* Crea un espacio de seguridad tras el logo */
+}
+
+.md-header__button.md-logo img {
+    height: 2.5rem !important; /* Aumentamos el tamaño */
+    width: auto !important;
+    max-height: none !important; /* Eliminamos restricciones del tema */
+    transform: scale(1.6); /* Compensamos el espacio en blanco interno del SVG */
+    transform-origin: left center;
+}
+
+/* Desplazamos el título para que no choque con el logo escalado */
+.md-header__title {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 4.5rem !important;
+}
+
+/* Reemplazo del icono por el estilo Library */
+.md-header__title::before {
+    content: "";
+    display: inline-block; /* Cambiado a inline-block para mejor alineación con el texto */
+    vertical-align: middle; /* Centra el icono respecto al texto */
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.6rem;
+    background-color: currentColor;    
+    mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>') no-repeat center;
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>') no-repeat center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
+
+/* --- MEJORA DE LAS PESTAÑAS (TABS) --- */
+
+/* Atenuación del color y separador horizontal con el header */
+.md-tabs {
+    background-color: var(--md-primary-fg-color) !important;
+    filter: brightness(92%); /* Atenúa ligeramente el color corporativo */
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important; /* Separador sutil */
+}
+
+/* Separadores verticales entre pestañas existentes */
+.md-tabs__item {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-tabs__item:last-child {
+    border-right: none; /* Quitamos el último separador */
+}
+
+.md-tabs__list {
+    margin-left: 12.5rem !important; /* Ajusta este valor para alinear las pestañas con el título */
+}
+
 .faq-section {
     counter-reset: h3-counter;
 }
@@ -77,6 +139,12 @@
 
 .footer-list li {
   margin-bottom: 8px;
+}
+
+/* Sobrescribir títulos específicamente para el footer */
+.footer-section h4 {
+    color: white !important;
+    opacity: 1 !important; /* Para que no herede la opacidad 0.8 del h4 global */
 }
 
 body {
