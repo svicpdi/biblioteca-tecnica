@@ -34,18 +34,20 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Desplegar versión (Release o Main)
+      - name: Desplegar con mike
         run: |
           # Si el evento es una Release, usamos el nombre del tag (ej: v1.0)
-          # Si es un push normal a main, actualizamos 'latest'
+          # Si es un push normal a main, actualizamos 'latest' con el título 'Última Versión'
           if [ "${{ github.event_name }}" = "release" ]; then
             VERSION_NAME="${{ github.event.release.tag_name }}"
             echo "Desplegando versión oficial: $VERSION_NAME"
             mike deploy --push --update-aliases "$VERSION_NAME" latest
+            # Opcional: Si quieres que al crear una release, el título de 'latest' no cambie
+            mike relabel latest "Última Versión" --push
           else
             echo "Actualizando versión de desarrollo (latest)"
-            mike deploy --push --update-aliases latest
+            mike deploy --push --update-aliases --title "Última Versión" latest
           fi
           
-          # Aseguramos que 'latest' sea siempre el defecto
+          # Establecemos 'latest' como la versión por defecto al entrar a la raíz
           mike set-default --push latest
