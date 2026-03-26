@@ -10,6 +10,8 @@ extra_css:
 # Configuración del Tema Material
 theme:
   name: material
+  logo: assets/images/logo.svg  # Cámbialo a .svg para máxima calidad
+  # favicon: assets/images/favicon.png # Opcional: icono de la pestaña
   language: es  # Idioma de la interfaz (buscador, etiquetas)
   custom_dir: overrides
   repo_name: svicpdi/biblioteca-tecnica  # El nombre que quieres que se lea
