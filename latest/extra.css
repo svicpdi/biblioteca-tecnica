@@ -1,0 +1,238 @@
+:root {
+  /* Definición de colores base */
+  --ull-brand: #5c068e;
+  --ull-brand-light: #ab6bd3; /* Tono lavanda más claro para alto contraste en oscuro */
+
+  /* Variables por defecto (Modo Claro) */
+  --md-primary-fg-color: var(--ull-brand);
+  --md-accent-fg-color: var(--ull-brand);
+  --footer-bg: var(--ull-brand);
+
+  /* Icono de vídeo de FontAwesome (fa-video) */
+  --md-admonition-icon--video: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64h256c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zm559.1 7.4c6.2 3.5 10 10.1 10 17.2v206.8c0 7.1-3.9 13.7-10 17.2s-13.7 3.4-19.8-.2l-128-73.1c-5.4-3.1-8.8-8.9-8.8-15.1v-46.3c0-6.2 3.4-12 8.8-15.1l128-73.1c6.1-3.5 13.7-3.7 19.8-.2z"/></svg>');
+}
+
+/* Color del borde */
+.md-typeset .admonition.video,
+.md-typeset details.video {
+  border-color: #3f51b5;
+}
+
+/* Color de fondo de la barra del título */
+.md-typeset .video > .admonition-title,
+.md-typeset .video > summary {
+  background-color: rgba(63, 81, 181, 0.1);
+}
+
+/* Color y máscara del icono */
+.md-typeset .video > .admonition-title::before,
+.md-typeset .video > summary::before {
+  background-color: #3f51b5;
+  -webkit-mask-image: var(--md-admonition-icon--video);
+          mask-image: var(--md-admonition-icon--video);
+}
+
+/* Sobrescritura automática para Modo Oscuro (Slate) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ull-brand-light);
+  --md-accent-fg-color: var(--ull-brand-light);
+  /* Footer oscuro tintado de morado para no deslumbrar */
+  --footer-bg: #2a153c; 
+}
+
+/* --- MEJORA DEL LOGO EN EL HEADER --- */
+/* Usamos el selector completo del tema para asegurar que nuestros cambios ganen */
+.md-header__button.md-logo {
+    display: flex !important;
+    align-items: center !important; /* Centrado vertical del logo */
+    justify-content: flex-start !important; /* Alineación total a la izquierda */
+    padding-left: 0 !important; /* Elimina el espacio sobrante al inicio */
+    margin-right: 2.5rem !important; /* Crea un espacio de seguridad tras el logo */
+}
+
+.md-header__button.md-logo img {
+    height: 2.5rem !important; /* Aumentamos el tamaño */
+    width: auto !important;
+    max-height: none !important; /* Eliminamos restricciones del tema */
+    transform: scale(1.6); /* Compensamos el espacio en blanco interno del SVG */
+    transform-origin: left center;
+}
+
+/* Desplazamos el título para que no choque con el logo escalado */
+.md-header__title {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 4.5rem !important;
+}
+
+/* Reemplazo del icono por el estilo Library */
+.md-header__title::before {
+    content: "";
+    display: inline-block; /* Cambiado a inline-block para mejor alineación con el texto */
+    vertical-align: middle; /* Centra el icono respecto al texto */
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.6rem;
+    background-color: currentColor;    
+    mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>') no-repeat center;
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>') no-repeat center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
+
+/* --- MEJORA DE LAS PESTAÑAS (TABS) --- */
+
+/* Atenuación del color y separador horizontal con el header */
+.md-tabs {
+    background-color: var(--md-primary-fg-color) !important;
+    filter: brightness(92%); /* Atenúa ligeramente el color corporativo */
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important; /* Separador sutil */
+}
+
+/* Separadores verticales entre pestañas existentes */
+.md-tabs__item {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.md-tabs__item:last-child {
+    border-right: none; /* Quitamos el último separador */
+}
+
+.md-tabs__list {
+    margin-left: 12.5rem !important; /* Ajusta este valor para alinear las pestañas con el título */
+}
+
+.faq-section {
+    counter-reset: h3-counter;
+}
+
+.faq-section h3 {
+    font-size: 20px;
+    counter-increment: h3-counter;
+}
+
+.faq-section h3::before {
+    content: counter(h3-counter) ". ";
+}
+
+.footer-wrapper {
+  background-color: var(--footer-bg);
+  color: white;
+  padding-top: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-section a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+/* Sobrescribir títulos específicamente para el footer */
+.footer-section h4 {
+    color: white !important;
+    opacity: 1 !important; /* Para que no herede la opacidad 0.8 del h4 global */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.md-nav {
+    text-align: left;
+}
+
+/* Clase personalizada para imágenes dentro de tablas */
+.tabla-img-ajustada {
+    width: 30%;
+    min-width: 150px; /* Evita que la imagen sea demasiado pequeña en móviles */
+}
+
+/* --- MEJORAS VISUALES --- */
+
+/* Estilo moderno para Tablas */
+.md-typeset table:not([class]) {
+    border-radius: 8px;
+    overflow: hidden; /* Para que el borde redondeado aplique al encabezado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+}
+
+/* Imágenes con sombra suave y bordes redondeados */
+.md-content__inner img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Barra de desplazamiento personalizada (Chrome/Edge/Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--md-primary-fg-color);
+    border-radius: 4px;
+}
+
+/* --- PERSONALIZACIÓN DE TÍTULOS (H1-H6) --- */
+/* Aplicamos el color corporativo adaptativo a todos los niveles de encabezado */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    color: var(--md-primary-fg-color);
+    font-weight: 700; /* Negrita para reforzar la jerarquía visual */
+    letter-spacing: -0.01em; /* Ligero ajuste tipográfico para aspecto más limpio */
+}
+
+/* Gradiente de intensidad: suavizamos el color reduciendo la opacidad progresivamente */
+.md-typeset h1 { opacity: 1; }      /* Color sólido e impactante */
+.md-typeset h2 { opacity: 0.9; }    /* Ligeramente más suave */
+.md-typeset h3 { opacity: 0.85; }
+.md-typeset h4 { opacity: 0.8; }
+.md-typeset h5 { opacity: 0.75; }
+.md-typeset h6 { opacity: 0.7; }    /* El tono más suave de la jerarquía */
