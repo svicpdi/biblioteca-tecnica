@@ -7,6 +7,29 @@
   --md-primary-fg-color: var(--ull-brand);
   --md-accent-fg-color: var(--ull-brand);
   --footer-bg: var(--ull-brand);
+
+  /* Icono de vídeo de FontAwesome (fa-video) */
+  --md-admonition-icon--video: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64h256c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zm559.1 7.4c6.2 3.5 10 10.1 10 17.2v206.8c0 7.1-3.9 13.7-10 17.2s-13.7 3.4-19.8-.2l-128-73.1c-5.4-3.1-8.8-8.9-8.8-15.1v-46.3c0-6.2 3.4-12 8.8-15.1l128-73.1c6.1-3.5 13.7-3.7 19.8-.2z"/></svg>');
+}
+
+/* Color del borde */
+.md-typeset .admonition.video,
+.md-typeset details.video {
+  border-color: #3f51b5;
+}
+
+/* Color de fondo de la barra del título */
+.md-typeset .video > .admonition-title,
+.md-typeset .video > summary {
+  background-color: rgba(63, 81, 181, 0.1);
+}
+
+/* Color y máscara del icono */
+.md-typeset .video > .admonition-title::before,
+.md-typeset .video > summary::before {
+  background-color: #3f51b5;
+  -webkit-mask-image: var(--md-admonition-icon--video);
+          mask-image: var(--md-admonition-icon--video);
 }
 
 /* Sobrescritura automática para Modo Oscuro (Slate) */
