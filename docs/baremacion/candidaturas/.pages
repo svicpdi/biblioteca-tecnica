@@ -1,4 +1,5 @@
 title: Candidaturas  # Así se llamará la pestaña en la web
 nav:
     - manual_plantilla.md           # Primero el manual de uso
+    - videotutoriales_candidaturas.md   # Videotutoriales
     - faq_plantilla.md              # Luego la sección de preguntas frecuentes
