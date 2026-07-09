@@ -1,6 +1,7 @@
 title: Comisiones  # Así se llamará la pestaña en la web
 nav:
     - manual_integracion.md
+    - videotutoriales_integracion.md
     - faq_integracion.md
     - colaboracion.md
   
