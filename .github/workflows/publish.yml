@@ -36,18 +36,25 @@ jobs:
 
       - name: Desplegar con mike
         run: |
-          # Si el evento es una Release, usamos el nombre del tag (ej: v1.0)
-          # Si es un push normal a main, actualizamos 'latest' con el título 'Última Versión'
+          # 1. Asegurar que git tiene acceso a la rama de despliegue (gh-pages)
+          # A veces Actions borra el tracking remoto en checkouts limpios
+          git fetch origin gh-pages:gh-pages || true
+
+          # 2. Lógica de despliegue según el evento
           if [ "${{ github.event_name }}" = "release" ]; then
             VERSION_NAME="${{ github.event.release.tag_name }}"
             echo "Desplegando versión oficial: $VERSION_NAME"
+            
+            # Despliega la versión tag (ej: v1.1.0) y actualiza el alias 'latest' para que apunte a ella
             mike deploy --push --update-aliases "$VERSION_NAME" latest
-            # Opcional: Si quieres que al crear una release, el título de 'latest' no cambie
-            mike relabel latest "Última Versión" --push
+            
+            # Corrección: Usamos 'retitle' en lugar de 'relabel'
+            mike retitle --push latest "Última Versión"
           else
             echo "Actualizando versión de desarrollo (latest)"
-            mike deploy --push --update-aliases --title "Última Versión" latest
+            # Despliega directamente sobre la versión 'latest' y le pone el título
+            mike deploy --push --title "Última Versión" latest
           fi
           
-          # Establecemos 'latest' como la versión por defecto al entrar a la raíz
+          # 3. Asegurar que la raíz redirige a 'latest'
           mike set-default --push latest
