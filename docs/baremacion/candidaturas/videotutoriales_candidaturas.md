@@ -1,4 +1,4 @@
-# Videotutoriales - Comisiones
+# Videotutoriales - Candidaturas
 
 En esta sección encontrará todos los vídeos formativos disponibles para dominar el uso de las herramientas de baremación y conocer la normativa aplicable de la Universidad de La Laguna.
 
