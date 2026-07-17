@@ -1782,22 +1782,32 @@ Haga clic derecho en la hoja de la baremación pormenorizada cuyo número corres
 <h3 id="puntuacion-3-p3-puntuacion-aplicando-afinidad-y-ponderacion-puntuacion-final"><strong>Puntuación 3 - P.3: Puntuación aplicando afinidad y ponderación (Puntuación final).</strong><a class="headerlink" href="#puntuacion-3-p3-puntuacion-aplicando-afinidad-y-ponderacion-puntuacion-final" title="Permanent link">¶</a></h3>
 <p>Por último, la <strong>P.3</strong> es la puntuación que define el orden de prelación de la plaza ya que aplica tanto nivel de afinidad como factor de ponderación. Será sobre la que se base la información final de la baremación: <strong>el resumen de la plaza, el acta de comisión y las baremaciones pormenorizadas.</strong></p>
 <h2 id="paso-6-baremo-especifico">Paso 6 – Baremo Específico<a class="headerlink" href="#paso-6-baremo-especifico" title="Permanent link">¶</a></h2>
-<p>En este Bloque, encontrará los datos del Baremo Específico vigente en el momento de la publicación dle concurso. En ocasiones, observará que la candidatura ha podido declarar méritos. Sin embargo, será la Comisión la que decida, en última instancia, qué méritos han de ser baremados y tenidos en cuenta en este Bloque.</p>
+<p>En este Bloque, encontrará los datos del Baremo Específico vigente en el momento de la publicación del concurso.</p>
+<p>En ocasiones, observará que la candidatura ha declarado méritos, no obstante y en cualquier caso, será la Comisión la que decida en última instancia qué méritos han de ser baremados y tenidos en cuenta en este Bloque.</p>
 <div class="admonition warning">
 <p class="admonition-title">Las Comisiones deberán introducir, <strong>manualmente</strong>, las puntuaciones de los diferentes apartados del Baremo Específico correspondiente. Esto significa que, aunque las celdas de puntuación tengan un formato que en principio no es de interacción, este hecho corresponde únicamente a una cuestión de diseño por lo que <strong>será necesario cumplimentar la columna de “Puntuación”, introduciendo la puntuación correspondiente a los méritos evaluados para ese apartado.</strong></p>
 </div>
-<p>Por tanto, en este apartado de la baremación, deberá:</p>
+<p>Por tanto, en este apartado de la baremación, deberá actuar de la siguiente manera:</p>
 <ol>
 <li>
-<p>Introducir, en la columna de afinidad correspondiente, el número de documento o documentos separados por "," a evalutar para ese apartado.</p>
+<p>Introducir, en la columna de afinidad correspondiente, el número de documento o documentos separados por "," a evaluar para ese apartado.</p>
 </li>
 <li>
 <p>Dirigirse a la columna puntuación de este bloque e introducir el valor numérico correspondiente.</p>
 </li>
+<li>
+<p><strong>Verificar</strong> que la puntuación introducida en cada subapartado no supere el límite máximo permitido para ese nivel (controlado automáticamente por la herramienta en la columna "Máximo").</p>
+</li>
 </ol>
-<p>Realizado lo anterior, quedaría una vista como la siguiente:</p>
+<details class="info">
+<summary>Control de Puntuación Máxima</summary>
+<p>La columna 'Máximo' mostrará un aviso visual (icono de exclamación o similar) si la puntuación introducida excede el límite máximo permitido para ese apartado según el Baremo Específico. Por contra, si la puntuación introducida es menor o igual al límite máximo, se mostrará un icono de verificación (✓).</p>
+</details>
+<ol>
+<li><strong>Calcular e introducir manualmente los sumatorios</strong>: La plataforma no suma automáticamente las puntuaciones de los subapartados. Deberá sumar usted mismo los valores de los subapartados (por ejemplo, los de la entrevista) e introducir el resultado total en la fila del apartado principal correspondiente.</li>
+</ol>
+<p>Una vez realizados estos pasos, quedaría una vista como la siguiente:</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../../assets/images/image45.png" data-desc-position="bottom"><img alt="ejemplo de Baremo Específico" src="../../../assets/images/image45.png"></a></p>
-<p>Como puede observar, se ha incorporado una columna denominada “Máximo” (Control de Puntuación Máxima). Esta columna muestra, mediante iconos, un aviso al usuario. Este aviso le indica si la puntuación introducida cumple con los límites de puntuación establecidos en el Baremo Específico correspondiente para ese apartado.</p>
 <h2 id="paso-61-manejo-de-situaciones-de-entrevista"><strong>Paso 6.1 – Manejo de situaciones de entrevista</strong><a class="headerlink" href="#paso-61-manejo-de-situaciones-de-entrevista" title="Permanent link">¶</a></h2>
 <p>Dentro de la herramienta, se consideran varias situaciones en relación con la puntuación de la entrevista pero todo atiende a la dicotomía; El acceso o no a esta fase del concurso.</p>
 <p>En el caso de que el resultado de la suma de las puntuaciones finales (P3) del Baremo Marco y de las puntuaciones del apartado de Especificidad del Baremo Específico sea inferior a la puntuación mínima para acceder a la entrevista, se deberá declarar la exclusión de la candidatura. De lo contrario, la misma tendrá la oportunidad de acceder a esta fase siempre que así lo estime la Comisión.</p>
@@ -1950,7 +1960,7 @@ Haga clic derecho en la hoja de la baremación pormenorizada cuyo número corres
     <span class="md-icon" title="Última actualización">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="24 de marzo de 2026 14:33:18 UTC">24 de marzo de 2026 14:33:18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="17 de julio de 2026 08:12:30 UTC">17 de julio de 2026 08:12:30</span>
   </span>
 
     
