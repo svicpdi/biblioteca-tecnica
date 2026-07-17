@@ -327,21 +327,28 @@ Por último, la **P.3** es la puntuación que define el orden de prelación de l
 
 ## Paso 6 – Baremo Específico
 
-En este Bloque, encontrará los datos del Baremo Específico vigente en el momento de la publicación dle concurso. En ocasiones, observará que la candidatura ha podido declarar méritos. Sin embargo, será la Comisión la que decida, en última instancia, qué méritos han de ser baremados y tenidos en cuenta en este Bloque.
+En este Bloque, encontrará los datos del Baremo Específico vigente en el momento de la publicación del concurso.
+
+En ocasiones, observará que la candidatura ha declarado méritos, no obstante y en cualquier caso, será la Comisión la que decida en última instancia qué méritos han de ser baremados y tenidos en cuenta en este Bloque.
 
 !!! warning "Las Comisiones deberán introducir, **manualmente**, las puntuaciones de los diferentes apartados del Baremo Específico correspondiente. Esto significa que, aunque las celdas de puntuación tengan un formato que en principio no es de interacción, este hecho corresponde únicamente a una cuestión de diseño por lo que **será necesario cumplimentar la columna de “Puntuación”, introduciendo la puntuación correspondiente a los méritos evaluados para ese apartado.**"
 
-Por tanto, en este apartado de la baremación, deberá:
+Por tanto, en este apartado de la baremación, deberá actuar de la siguiente manera:
 
-1. Introducir, en la columna de afinidad correspondiente, el número de documento o documentos separados por "," a evalutar para ese apartado.
+1. Introducir, en la columna de afinidad correspondiente, el número de documento o documentos separados por "," a evaluar para ese apartado.
 
 2. Dirigirse a la columna puntuación de este bloque e introducir el valor numérico correspondiente.
 
-Realizado lo anterior, quedaría una vista como la siguiente:
+3. **Verificar** que la puntuación introducida en cada subapartado no supere el límite máximo permitido para ese nivel (controlado automáticamente por la herramienta en la columna "Máximo").
+
+??? info "Control de Puntuación Máxima"
+    La columna 'Máximo' mostrará un aviso visual (icono de exclamación o similar) si la puntuación introducida excede el límite máximo permitido para ese apartado según el Baremo Específico. Por contra, si la puntuación introducida es menor o igual al límite máximo, se mostrará un icono de verificación (✓).
+
+4. **Calcular e introducir manualmente los sumatorios**: La plataforma no suma automáticamente las puntuaciones de los subapartados. Deberá sumar usted mismo los valores de los subapartados (por ejemplo, los de la entrevista) e introducir el resultado total en la fila del apartado principal correspondiente.
+
+Una vez realizados estos pasos, quedaría una vista como la siguiente:
 
 ![ejemplo de Baremo Específico](../../assets/images/image45.png)
-
-Como puede observar, se ha incorporado una columna denominada “Máximo” (Control de Puntuación Máxima). Esta columna muestra, mediante iconos, un aviso al usuario. Este aviso le indica si la puntuación introducida cumple con los límites de puntuación establecidos en el Baremo Específico correspondiente para ese apartado.
 
 ## **Paso 6.1 – Manejo de situaciones de entrevista**
 
