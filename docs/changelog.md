@@ -14,7 +14,7 @@ El formato de las versiones se basa en [Semanthic Versioning](https://semver.org
 
 ### <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#d32f2f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-bottom: 4px;"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.77 3.77z"></path></svg> Corregido
 
-* Corrección de un error con la visualización de imagen aclaratorio de la pregunta [11 del FAQ sobre el Manul de uso de la Plantilla de Integración](/baremacion/comisiones/faq_integracion/#el-resumen-de-las-puntuaciones-muestra-estas-como-si-estuvieran-divididas-por-mil)
+* Corrección de un error con la visualización de imagen aclaratorio de la pregunta [11 del FAQ sobre el Manul de uso de la Plantilla de Integración](baremacion/comisiones/faq_integracion/#el-resumen-de-las-puntuaciones-muestra-estas-como-si-estuvieran-divididas-por-mil)
 
 ## [1.1.1] - 2026-07-17
 
