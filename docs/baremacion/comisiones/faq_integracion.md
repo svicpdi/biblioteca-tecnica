@@ -74,7 +74,7 @@ Según la configuración de su teclado, quizás la tecla de “.“ de su teclad
 
 La herramienta utiliza el caracter “ , ” como separador decimal. En ocasiones, la configuración de Excel puede tomar el caracter “ . “ lo cual provoca una representación inapropiada de los decimales. Para solucionarlo deberá dirigirse a “ Archivo / Opciones /  Avanzadas / Opciones de edición” y marcar la siguiente casilla:
 
-![][image20]
+![Configuración del separador decimal](../../assets/images/image58.png)
 
 ---
 
